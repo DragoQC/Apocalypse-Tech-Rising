@@ -1,0 +1,294 @@
+{
+	autofocus_id: "130908EEAAEEE28A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "new_weapons"
+	group: "1E6D2DC5473BDCD4"
+	id: "2470929AFDBC7992"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4F151E5C61C22ED6"
+			rewards: [{
+				id: "32569DF78AF0C170"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "13D639C3940F69A8"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplyswords:longswords)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5452460108DD9558"
+			rewards: [{
+				id: "04DABEC3151D90FC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5471632510B15E60"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplyswords:twinblades)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "4FAB82C34DC55EB8"
+			rewards: [{
+				id: "3F422A9CE0DDF930"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A67A514D83BFA45"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplyswords:rapiers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "10FEC2BD780EF367"
+			rewards: [{
+				id: "7D0E1BF551B7F216"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "57E73F2A69A16279"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplyswords:katanas)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "20E9580C2A68B753"
+			rewards: [{
+				id: "315F1766CFDF283B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0F02172CC0A50A59"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplyswords:sais)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "3B6C2FADDBC121FC"
+			rewards: [{
+				id: "007002D68B64CEC3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1896FB741DB6E652"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplyswords:spears)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "097A5BE775492608"
+			rewards: [{
+				id: "33853D769573BBB2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3249986F000CCCC8"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplyswords:glaives)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "034B37BED6E00165"
+			rewards: [{
+				id: "298606D5B100BD42"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3C7FF70B15E2596C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplyswords:warglaives)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "421557C5C26C37C4"
+			rewards: [{
+				id: "1B15E6364A7C32C0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52A0DC6537384DF3"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplyswords:cutlass)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "377DF417ECAC9C17"
+			rewards: [{
+				id: "5D1D84BA7F3F9DA8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C5E0352E41EB35F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplyswords:claymores)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "18B4162BF086AB16"
+			rewards: [{
+				id: "7FDBBC9F8CC95271"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "177DB0CE59B9BC81"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplyswords:greathammers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"471A2B8B3DD301D4"
+				"377DF417ECAC9C17"
+				"421557C5C26C37C4"
+				"097A5BE775492608"
+				"18B4162BF086AB16"
+				"0A8A5B9F670B85AB"
+				"10FEC2BD780EF367"
+				"4FAB82C34DC55EB8"
+				"20E9580C2A68B753"
+				"3B6C2FADDBC121FC"
+				"034B37BED6E00165"
+				"332F0E46B9EAA312"
+				"4F151E5C61C22ED6"
+				"5452460108DD9558"
+			]
+			hide_until_deps_complete: true
+			id: "130908EEAAEEE28A"
+			min_required_dependencies: 4
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0641F764720963DA"
+				table_id: 5043210007141750034L
+				type: "choice"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: true
+					id: "352C5F4A0528DF0B"
+					item: { count: 1, id: "minecraft:nether_star" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "16F14E2F2E9B2AEF"
+					item: { count: 1, id: "minecraft:netherite_block" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "59E94050881AC0D6"
+					item: { count: 1, id: "minecraft:oak_log" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4C18610C3943BEB3"
+					item: { count: 1, id: "minecraft:netherite_sword" }
+					type: "item"
+				}
+			]
+			x: 0.75d
+			y: 1.75d
+		}
+		{
+			id: "471A2B8B3DD301D4"
+			rewards: [{
+				id: "00F0F1ED7263E0CA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2DF93BAD90B1B274"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplyswords:chakrams)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "332F0E46B9EAA312"
+			rewards: [{
+				id: "1B18CBA5D531D5E2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1EF447C2D519DD30"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplyswords:scythes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "0A8A5B9F670B85AB"
+			rewards: [{
+				id: "0C0EACAF1ADD5E5F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7E1262357364C553"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplyswords:halberds)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.7142857142857153d
+			y: 4.732142857142854d
+		}
+		{
+			id: "443B8D115CBE1130"
+			rewards: [{
+				id: "7F9FC1573ECA7DEF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6B9DA88B79DE67FD"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simplyswords:greataxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+	]
+}

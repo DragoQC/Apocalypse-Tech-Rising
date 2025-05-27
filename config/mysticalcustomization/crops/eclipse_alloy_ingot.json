@@ -1,0 +1,25 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalextendedtier:10",
+    "name": "EclipseAlloy Ingot",
+    "ingredient": {
+      "item": "justdirethings:eclipsealloy_ingot"
+    },
+    "colors": {
+        "flower": "35404e",
+        "essence": "35404e",
+        "seeds": "35404e"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    },
+    "crux": "justdirethings:gooblock_tier4"
+  }
+  

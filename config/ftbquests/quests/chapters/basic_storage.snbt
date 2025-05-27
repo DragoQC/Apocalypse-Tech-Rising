@@ -1,0 +1,151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_storage"
+	group: "3D765B55252CA514"
+	id: "199C3772D854F89F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "colossalchests:chest_wall_wood"
+			}
+			id: "6E88F962DAC90EE1"
+			rewards: [
+				{
+					id: "37AEDE926DFE6835"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3AFA6ABAE883954E"
+					item: {
+						components: {
+							"someassemblyrequired:sandwich_contents": [
+								{
+									count: 1
+									id: "someassemblyrequired:bread_slice"
+								}
+								{
+									components: {
+										"minecraft:potion_contents": {
+											potion: "minecraft:awkward"
+										}
+									}
+									count: 1
+									id: "minecraft:potion"
+								}
+								{
+									count: 1
+									id: "someassemblyrequired:bread_slice"
+								}
+							]
+						}
+						count: 1
+						id: "someassemblyrequired:sandwich"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 24L
+					id: "555FB4F7A51800DC"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(colossalchests:walls)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "1635B5B8B1B7C090"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(colossalchests:cores)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "3187A2469FAF812E"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(colossalchests:interfaces)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "6A26099E51FEA3A6"
+			rewards: [
+				{
+					id: "0E180831A4E3642F"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:basic_tier_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "5D93783F8467B8E8"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:stack_upgrade_tier_1"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BF46C61E9D888B3"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(sophisticatedstorage:all_storage)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "2513F3A4D70A3FA3"
+			rewards: [
+				{
+					id: "57B1AC26BBEB6F55"
+					item: {
+						count: 1
+						id: "minecraft:ender_eye"
+					}
+					type: "item"
+				}
+				{
+					id: "10E406B2E689690A"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "6A3267C89F5EF4B3"
+					item: {
+						count: 1
+						id: "enderchests:ender_pouch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D67EAE25678C54A"
+				item: { count: 1, id: "enderchests:ender_chest" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "2DCD8BD01C8AE8B2"
+			rewards: [{
+				id: "098E512DE8C8AC99"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "284368CEDCAB42E6"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+	]
+}

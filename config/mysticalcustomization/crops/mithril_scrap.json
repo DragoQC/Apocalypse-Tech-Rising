@@ -1,0 +1,25 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalextendedtier:8",
+    "name": "Mithril Scrap",
+    "ingredient": {
+      "item": "irons_spellbooks:mithril_scrap"
+    },
+    "colors": {
+        "flower": "99d9d9",
+        "essence": "99d9d9",
+        "seeds": "99d9d9"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_rock",
+      "essence": "mysticalagriculture:item/essence_gem",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    },
+    "crux":"minecraft:netherite_block"
+  }
+  

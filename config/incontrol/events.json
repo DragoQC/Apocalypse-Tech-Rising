@@ -1,0 +1,19 @@
+[
+  {
+    "on": "custom",
+    "parameters": { "name": "twilight_horde" },
+    "conditions": {
+      "dimension": "twilightforest:twilight_forest",
+      "random": 0.5
+    },
+    "spawn": {
+      "mob": [ "minecraft:zombie", "minecraft:husk" ],
+      "mincount": 2,
+      "maxcount": 3,
+      "mindistance": 5,
+      "maxdistance": 15,
+      "attempts": 20,
+      "norestrictions": true
+    }
+  }
+]

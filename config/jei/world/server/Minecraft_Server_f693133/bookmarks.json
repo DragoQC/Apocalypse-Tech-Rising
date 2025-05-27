@@ -1,0 +1,13 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"artifactory:attunement_nexus"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simplyswords:iron_scythe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:frozen_bone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:deployer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alltheores:copper_ore_hammer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:cokebrick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:coke_oven"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"immersiveengineering:crafting/cloche","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"immersiveengineering:workbench"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"immersiveengineering:blueprint","components":{"immersiveengineering:blueprint":"components"}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

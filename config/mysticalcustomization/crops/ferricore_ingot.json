@@ -1,0 +1,25 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "name": "Ferricore Ingot",
+    "ingredient": {
+      "item": "justdirethings:ferricore_ingot"
+    },
+    "colors": {
+        "flower": "b1e5db",
+        "essence": "89b2aa",
+        "seeds": "617e79"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    },
+    "crux": "justdirethings:gooblock_tier1"
+  }
+  

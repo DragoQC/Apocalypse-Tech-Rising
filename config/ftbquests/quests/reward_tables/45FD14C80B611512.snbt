@@ -1,0 +1,37 @@
+{
+	id: "45FD14C80B611512"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ id: "5AAA543D1CF82074", item: { count: 1, id: "simplyswords:brimstone_claymore" } }
+		{ id: "7A155769CD5914B8", item: { count: 1, id: "simplyswords:soulrender" } }
+		{ id: "4009EF8159C07490", item: { count: 1, id: "simplyswords:wraithfang" } }
+		{ id: "553FA945CEB607C1", item: { count: 1, id: "simplyswords:caelestis" } }
+		{ id: "46ADE534E7F71B99", item: { count: 1, id: "simplyswords:magiblade" } }
+		{ id: "2A64803A630E9599", item: { count: 1, id: "simplyswords:magispear" } }
+		{ id: "29245A8306E323F0", item: { count: 1, id: "simplyswords:enigma" } }
+		{ id: "3E820CE7F364380F", item: { count: 1, id: "simplyswords:magiscythe" } }
+		{ id: "742ECE9F3BB28B37", item: { count: 1, id: "simplyswords:decaying_relic" } }
+		{ id: "656A7621F377DAD0", item: { count: 1, id: "simplyswords:ribboncleaver" } }
+		{ id: "52EC7A34DE95579E", item: { count: 1, id: "simplyswords:flamewind" } }
+		{ id: "6F90C1FA8132482C", item: { count: 1, id: "simplyswords:tempest" } }
+		{ id: "00AE0E43425D0BE1", item: { count: 1, id: "simplyswords:wickpiercer" } }
+		{ id: "5B147E2892D1ACCE", item: { count: 1, id: "simplyswords:stars_edge" } }
+		{ id: "53BD37CD9B7C8D74", item: { count: 1, id: "simplyswords:hiveheart" } }
+		{ id: "3D7E3D47D4A480A2", item: { count: 1, id: "simplyswords:waxweaver" } }
+		{ id: "37A5C955A00B90B9", item: { count: 1, id: "simplyswords:emberlash" } }
+		{ id: "24AE2A36896C6716", item: { count: 1, id: "simplyswords:whisperwind" } }
+		{ id: "4A6B86BD06FA93A4", item: { count: 1, id: "simplyswords:harbinger" } }
+		{ id: "7064A2A052BFB813", item: { count: 1, id: "simplyswords:sunfire" } }
+		{ id: "2546706B78086804", item: { count: 1, id: "simplyswords:tainted_relic" } }
+		{ id: "4BA645F04366B22F", item: { count: 1, id: "simplyswords:righteous_relic" } }
+		{ id: "0A370DC3C8084CDF", item: { count: 1, id: "simplyswords:dormant_relic" } }
+		{ id: "732ED11FA9CC3636", item: { count: 1, id: "simplyswords:shadowsting" } }
+		{ id: "137407A8B968FAAA", item: { count: 1, id: "simplyswords:slumbering_lichblade" } }
+		{ id: "4CFBB32F29581004", item: { count: 1, id: "simplyswords:mjolnir" } }
+		{ id: "50D51E464FBE06EE", item: { count: 1, id: "simplyswords:thunderbrand" } }
+		{ id: "5CD249A04B64AB1F", item: { count: 1, id: "simplyswords:watching_warglaive" } }
+		{ id: "33E57A0FA8C2E35C", item: { count: 1, id: "simplyswords:soulpyre" } }
+		{ id: "306131D802FBE51E", item: { count: 1, id: "simplyswords:stormbringer" } }
+	]
+}

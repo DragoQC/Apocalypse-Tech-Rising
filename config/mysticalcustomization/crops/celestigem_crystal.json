@@ -1,0 +1,25 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalextendedtier:8",
+    "name": "Celestigem",
+    "ingredient": {
+      "item": "justdirethings:celestigem"
+    },
+    "colors": {
+        "flower": "8ef5e0",
+        "essence": "8ef5e0",
+        "seeds": "8ef5e0"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_rock",
+      "essence": "mysticalagriculture:item/essence_quartz",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    },
+    "crux": "justdirethings:gooblock_tier3"
+  }
+  

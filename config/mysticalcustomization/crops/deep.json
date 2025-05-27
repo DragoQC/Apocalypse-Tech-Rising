@@ -1,0 +1,25 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalextendedtier:10",
+    "name": "Deep",
+    "ingredient": {
+      "item": "deeperdarker:heart_of_the_deep"
+    },
+    "colors": {
+        "flower": "03404f",
+        "essence": "03404f",
+        "seeds": "03404f"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_rock",
+      "essence": "mysticalagriculture:item/essence_rock",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    },
+    "crux": "minecraft:sculk"
+  }
+  

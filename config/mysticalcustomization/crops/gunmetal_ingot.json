@@ -1,0 +1,24 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:3",
+    "name": "Gunmetal Ingot",
+    "ingredient": {
+      "item": "pointblank:gunmetal_ingot"
+    },
+    "colors": {
+        "flower": "262626",
+        "essence": "262626",
+        "seeds": "262626"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    }
+  }
+  

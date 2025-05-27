@@ -1,0 +1,25 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "name": "Lithium Dust",
+    "ingredient": {
+      "item": "mekanism:dust_lithium"
+    },
+    "colors": {
+        "flower": "d0bfb1",
+        "essence": "d0bfb1",
+        "seeds": "d0bfb1"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    },
+    "crux":"mekanism:block_refined_glowstone"
+  }
+  

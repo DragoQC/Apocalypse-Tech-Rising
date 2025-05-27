@@ -1,0 +1,25 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalextendedtier:8",
+    "name": "Deorum Ingot",
+    "ingredient": {
+      "item": "forbidden_arcanus:deorum_ingot"
+    },
+    "colors": {
+        "flower": "e8ae2e",
+        "essence": "e8ae2e",
+        "seeds": "e8ae2e"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    },
+    "crux": "forbidden_arcanus:arcane_polished_darkstone"
+  }
+  

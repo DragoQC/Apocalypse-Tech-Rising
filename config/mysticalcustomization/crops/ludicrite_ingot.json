@@ -1,0 +1,24 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalextendedtier:7",
+    "name": "Ludicrite Ingot",
+    "ingredient": {
+      "item": "bigreactors:ludicrite_ingot"
+    },
+    "colors": {
+        "flower": "5b1380",
+        "essence": "5b1380",
+        "seeds": "5b1380"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    }
+  }
+  

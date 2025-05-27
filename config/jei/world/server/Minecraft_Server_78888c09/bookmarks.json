@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"integrateddynamics:squeezer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"integrateddynamics:drying_basin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:slime_ball","components":{"minecraft:lore":["\"Ew sticky!\""]}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

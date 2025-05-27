@@ -1,0 +1,56 @@
+#If true, Nights of the Undead (horde nights) are enabled | default: true
+undeadNightsEnabled = true
+#Days between horde nights (1 = every night is a horde night) | default: 5
+# Default: 5
+# Range: > 1
+daysBetweenHordeNights = 5
+#Chance in % for a horde night | default: 100
+# Default: 100
+# Range: 1 ~ 100
+chanceForHordeNight = 100
+#If true, each night a message will be sent to the player with how many nights are left before the next Horde Night | default: false
+sendHordeNightsCountdownMessage = false
+#Minimum distance a horde will spawn away from the player | default: 70
+# Default: 70
+# Range: 10 ~ 256
+distanceMin = 70
+#Maximum distance a horde will spawn away from the player | default: 75
+# Default: 75
+# Range: 10 ~ 256
+distanceMax = 75
+#Maximum amount of horde mobs that can be loaded in the world at the same time | default: 80
+# Default: 80
+# Range: 1 ~ 2048
+hordeMobsSpawnCap = 80
+#If true, additional waves can spawn in a horde night | default: true
+spawnAdditionalWaves = true
+#Time in seconds between check for next possible wave in a horde night | default: 45
+# Default: 45
+# Range: > 1
+cooldownBetweenWaves = 45
+#Chance in % for another horde wave (checked after every wave cooldown) | default: 7
+# Default: 7
+# Range: 1 ~ 100
+chanceForAdditionalWaves = 7
+#If true, horde waves can spawn in water | default: false
+hordeWavesCanSpawnInWater = false
+#If true, horde waves can spawn on trees | default: false
+hordeWavesCanSpawnOnTrees = false
+#If true, Players can't sleep through horde nights | default: true
+hordeNightsDisableSleeping = true
+#If true, the horde mobs will be persistent and not despawn | default: false
+persistentMobs = false
+#If true, the horde zombies (only those added by this mod) will burn in daylight | default: false
+hordeZombiesBurnInDaylight = false
+#If true, Horde Zombies can break blocks | default: false
+hordeZombiesCanBreakBlocks = false
+#Horde Zombie block break tier (0-3) | default: 1
+# Default: 1
+# Range: 0 ~ 3
+hordeZombieBlockBreakTier = 1
+#If true, Horde Zombies are not able to break reinforced blocks from the Security Craft mod | default: false
+securityCraftCompatibility = false
+#If true, single stray horde zombies can spawn on normal nights | default: true
+spawnStrayHordeZombies = true
+#If true, debug messages will be logged out | default: false
+printDebugMessages = false

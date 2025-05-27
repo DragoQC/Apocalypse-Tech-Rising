@@ -1,0 +1,24 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "name": "Xychorium",
+    "ingredient": {
+      "tag": "c:gems/xychorium"
+    },
+    "colors": {
+        "flower": "fcf8e8",
+        "essence": "fcf8e8",
+        "seeds": "fcf8e8"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_rock",
+      "essence": "mysticalagriculture:item/essence_gem",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    }
+  }
+  

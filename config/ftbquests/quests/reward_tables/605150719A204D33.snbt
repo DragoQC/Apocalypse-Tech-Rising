@@ -1,0 +1,16 @@
+{
+	id: "605150719A204D33"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "040040314AED7B85", item: { count: 1, id: "apothic_enchanting:pickaxe_tome" } }
+		{ id: "2F37DD5FCA88A536", item: { count: 1, id: "apothic_enchanting:helmet_tome" } }
+		{ id: "0B2126A20D637991", item: { count: 1, id: "apothic_enchanting:chestplate_tome" } }
+		{ id: "7A03341BC4469EF8", item: { count: 1, id: "apothic_enchanting:leggings_tome" } }
+		{ id: "7626DEFDBA1DA393", item: { count: 1, id: "apothic_enchanting:boots_tome" } }
+		{ id: "48F453EAE50F72DD", item: { count: 1, id: "apothic_enchanting:weapon_tome" } }
+		{ id: "4C19FF858E517DDF", item: { count: 1, id: "apothic_enchanting:bow_tome" } }
+		{ id: "348020877CC2436F", item: { count: 1, id: "apothic_enchanting:fishing_tome" } }
+		{ id: "6FF6757E67C1060F", item: { count: 1, id: "apothic_enchanting:other_tome" } }
+	]
+}

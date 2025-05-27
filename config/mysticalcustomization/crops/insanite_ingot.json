@@ -1,0 +1,24 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalextendedtier:10",
+    "name": "Insanite Ingot",
+    "ingredient": {
+      "item": "bigreactors:insanite_ingot"
+    },
+    "colors": {
+        "flower": "38a68d",
+        "essence": "38a68d",
+        "seeds": "38a68d"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    }
+  }
+  

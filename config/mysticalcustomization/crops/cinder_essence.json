@@ -1,0 +1,25 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalextendedtier:9",
+    "name": "Cinder Essence",
+    "ingredient": {
+      "item": "irons_spellbooks:cinder_essence"
+    },
+    "colors": {
+        "flower": "281f1f",
+        "essence": "281f1f",
+        "seeds": "281f1f"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    },
+    "crux":"minecraft:netherite_block"
+  }
+  

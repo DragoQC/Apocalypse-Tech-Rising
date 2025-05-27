@@ -1,0 +1,25 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalextendedtier:8",
+    "name": "Flux Dust",
+    "ingredient": {
+      "item": "fluxnetworks:flux_dust"
+    },
+    "colors": {
+        "flower": "1B1212",
+        "essence": "353935",
+        "seeds": "343434"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust",
+      "essence": "mysticalagriculture:item/essence_dust",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    },
+    "crux": "fluxnetworks:flux_block"
+  }
+  

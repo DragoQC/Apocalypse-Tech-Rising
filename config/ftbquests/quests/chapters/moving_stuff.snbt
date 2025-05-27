@@ -1,0 +1,288 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "moving_stuff"
+	group: "1E6D2DC5473BDCD4"
+	id: "7F56D717820D0C05"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5E8E2895D82B6D22"
+			rewards: [
+				{
+					count: 16
+					id: "44654D39BA4EBC9A"
+					item: {
+						count: 1
+						id: "pipez:universal_pipe"
+					}
+					type: "item"
+				}
+				{
+					id: "139FC33DA98924D8"
+					item: {
+						count: 1
+						id: "pipez:wrench"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3AF751E383067195"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(pipez:pipes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "046ADD0D3E7A2498"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(pipez:upgrades)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7E558E1D4057DF52"
+			rewards: [{
+				count: 16
+				id: "69D3F4EE399A637F"
+				item: {
+					count: 1
+					id: "mekanism:basic_universal_cable"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3832DFF0AB252398"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(mekanism:cable_energy)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "1E4FB65D3EFCCD43"
+			rewards: [{
+				count: 16
+				id: "30BE39E35F0F8E8F"
+				item: {
+					count: 1
+					id: "mekanism:basic_mechanical_pipe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "309AA1D23C1C536F"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(mekanism:cable_fluid)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "5BB319C5492C46F2"
+			rewards: [{
+				count: 16
+				id: "6D298B91E7C165E8"
+				item: {
+					count: 1
+					id: "mekanism:basic_pressurized_tube"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D9B39A88A7CA751"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(mekanism:cable_chemical)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "0B6D0C1332C6B6D6"
+			rewards: [{
+				count: 16
+				id: "65FA1178C59B3814"
+				item: {
+					count: 1
+					id: "mekanism:basic_thermodynamic_conductor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7430C91DD1960795"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(mekanism:cable_heat)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "1D9585CD68A140B4"
+			rewards: [
+				{
+					id: "11F1D233FD220F8C"
+					item: {
+						count: 1
+						id: "mekanism:restrictive_transporter"
+					}
+					type: "item"
+				}
+				{
+					id: "5A0C892885BF9E64"
+					item: {
+						count: 1
+						id: "mekanism:diversion_transporter"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20609C02E1798AFF"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(mekanism:cable_others)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			id: "3F537D871AC917B1"
+			rewards: [{
+				id: "1A6449FEE383263E"
+				item: {
+					count: 1
+					id: "trashcans:ultimate_trash_can"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "640AB892733B04A4"
+					item: { count: 1, id: "trashcans:item_trash_can" }
+					type: "item"
+				}
+				{
+					id: "6E33A2A378CBC471"
+					item: { count: 1, id: "trashcans:energy_trash_can" }
+					type: "item"
+				}
+				{
+					id: "4DFE8E97AF034738"
+					item: { count: 1, id: "trashcans:liquid_trash_can" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			id: "3A1BC537B6B81A3F"
+			tasks: [
+				{
+					id: "5FA27D7E5F90601F"
+					item: { count: 1, id: "integratedtunnels:part_exporter_item" }
+					type: "item"
+				}
+				{
+					id: "54ACBDE54D329AA7"
+					item: { count: 1, id: "integrateddynamics:cable" }
+					type: "item"
+				}
+				{
+					id: "09914D1F068916F8"
+					item: { count: 1, id: "integratedtunnels:part_interface_item" }
+					type: "item"
+				}
+				{
+					id: "312A00272C5544A0"
+					item: { count: 1, id: "integratedtunnels:part_importer_item" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "3E3E024B6F905DD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F4A542D31C3F1DF"
+				table_id: 2088155213107151062L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "1311BB27BB1F6C25"
+					item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:collector_upgrade" }
+					type: "item"
+				}
+				{
+					id: "0FE8FDC1A3AD608D"
+					item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:pusher_upgrade" }
+					type: "item"
+				}
+				{
+					id: "1A1B94C5A503E9E6"
+					item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:puller_upgrade" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "1B78AC43442A2633"
+			rewards: [{
+				id: "7448EEF29E961B29"
+				item: {
+					count: 1
+					id: "create:andesite_funnel"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "79F56B9A243DAD2A"
+					item: { count: 1, id: "create:belt_connector" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3CAB52613B10A9F1"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "39146650A1649BDF"
+			rewards: [{
+				id: "5528916E08360F69"
+				item: {
+					count: 1
+					id: "chisel:space/diamond_block"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4658F2CAE9BA8734"
+					item: { count: 1, id: "industrialforegoing:conveyor" }
+					type: "item"
+				}
+				{
+					id: "4330C2761257CD26"
+					item: { count: 1, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.5d
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:3",
+    "name": "Prosperity Shard",
+    "ingredient": {
+      "item": "mysticalagriculture:prosperity_shard"
+    },
+    "colors": {
+        "flower": "aecbcb",
+        "essence": "aecbcb",
+        "seeds": "aecbcb"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_quartz",
+      "essence": "mysticalagriculture:item/essence_quartz",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    }
+  }
+  

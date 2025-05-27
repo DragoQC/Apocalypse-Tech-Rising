@@ -1,0 +1,25 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagradditions:6",
+    "name": "Blazegold Ingot",
+    "ingredient": {
+      "item": "justdirethings:blazegold_ingot"
+    },
+    "colors": {
+        "flower": "e68e52",
+        "essence": "e68e52",
+        "seeds": "e68e52"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    },
+    "crux": "justdirethings:gooblock_tier2"
+  }
+  

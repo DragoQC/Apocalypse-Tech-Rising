@@ -1,0 +1,236 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "advanced_storage"
+	group: "3D765B55252CA514"
+	id: "51ECAADC5426A5C9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6D2529E4FF111393"
+			rewards: [{
+				id: "5179503B77048BC5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "5578DD5D771C5C48"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6F514239618B0A7A"
+				"12AB0CCC84C5B846"
+				"5E57A167A0C50F8F"
+			]
+			id: "1B35ED12CA6A699A"
+			rewards: [{
+				id: "6BA4E350616376E4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0AABD8CF9A4F14F1"
+				item: { count: 1, id: "refinedstorage:controller" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5852A7872C01F26B"
+				"2F050A107515DF2C"
+				"58F098A8869375CD"
+			]
+			id: "6BE6597BCEBBE6E9"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "352645180A70B94B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7B1038A955EE7664"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "58F098A8869375CD"
+			rewards: [
+				{
+					count: 10
+					id: "4F24AA702B45F685"
+					item: {
+						count: 1
+						id: "ae2:charged_certus_quartz_crystal"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6E604561FCF5D5EC"
+					item: {
+						count: 1
+						id: "ae2:certus_quartz_crystal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "rechiseled:netherite_block_meteoric"
+				}
+				id: "45ED3D3C3B4C2F2C"
+				structure: "ae2:meteorite"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "5852A7872C01F26B"
+			rewards: [{
+				id: "4958B3BE5D9C27A3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 4L
+				id: "6EFCFCC3B8A68DC7"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "2F050A107515DF2C"
+			rewards: [{
+				id: "44F52833BF53F3D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1EBC9B2A0357A045"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "12AB0CCC84C5B846"
+			rewards: [{
+				count: 10
+				id: "1A5A17F85932972F"
+				item: {
+					count: 1
+					id: "ae2:silicon"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5270752D2C59B558"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:silicon)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "6F514239618B0A7A"
+			rewards: [{
+				count: 10
+				id: "5CB8BC82C5CA86C3"
+				item: {
+					count: 1
+					id: "refinedstorage:quartz_enriched_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "620497F91DFF1AC9"
+				item: { count: 1, id: "refinedstorage:quartz_enriched_iron" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "5E57A167A0C50F8F"
+			rewards: [
+				{
+					count: 16
+					id: "7DA5495429A48ABE"
+					item: {
+						count: 1
+						id: "refinedstorage:processor_binding"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "39C5D339310A9C42"
+					item: {
+						count: 1
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4CAE52CD3D3FE87E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(refinedstorage:processors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "2A40425F63EA044F"
+			rewards: [
+				{
+					count: 2
+					id: "568927813725EB5C"
+					item: {
+						count: 1
+						id: "integrateddynamics:crystalized_menril_block"
+					}
+					type: "item"
+				}
+				{
+					id: "18113668C8D78BC9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "46FE35D8886CF98B"
+					item: { count: 1, id: "integratedterminals:part_terminal_storage" }
+					type: "item"
+				}
+				{
+					id: "128D6F1A0F08288B"
+					item: { count: 1, id: "integratedtunnels:part_interface_item" }
+					type: "item"
+				}
+				{
+					id: "757F811FB6ACB548"
+					item: { count: 1, id: "integrateddynamics:cable" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalextendedtier:10",
+    "name": "Time Crystal",
+    "ingredient": {
+      "item": "justdirethings:time_crystal"
+    },
+    "colors": {
+        "flower": "7efc3f",
+        "essence": "7efc3f",
+        "seeds": "7efc3f"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_rock",
+      "essence": "mysticalagriculture:item/essence_quartz",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    },
+    "crux":"justdirethings:time_crystal_block"
+  }
+  

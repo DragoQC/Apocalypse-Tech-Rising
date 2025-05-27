@@ -1,0 +1,12 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"forbidden_arcanus:tentacle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"crabbersdelight:raw_squid_tentacles"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"crabbersdelight:raw_glow_squid_tentacles"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oceansdelight:tentacles"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"bigger_ae2:quantum_cell_component"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"advanced_ae:quantum_storage_component"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"megacells:cell_component_1m"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:calculation_processor_press"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"megacells:accumulation_processor_press"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

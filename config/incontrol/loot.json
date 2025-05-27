@@ -1,0 +1,102 @@
+[
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk"],
+    "removeall": true
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk"],
+    "item": "minecraft:rotten_flesh",
+    "itemcount": "1/2-3/4-6",
+    "random": 1.0
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk"],
+    "item": "minecraft:string",
+    "itemcount": "1/2-3",
+    "random": 0.8
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk"],
+    "item": "minecraft:iron_ingot",
+    "itemcount": "1/1-2/2-3",
+    "random": 0.05
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk"],
+    "item": "minecraft:gunpowder",
+    "itemcount": "1/1-2/2-3",
+    "random": 0.05
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk"],
+    "item": "minecraft:diamond",
+    "itemcount": "1/1-2/2-3",
+    "random": 0.01
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk"],
+    "item": "minecraft:ender_pearl",
+    "itemcount": "1/1-2/2-3",
+    "random": 0.02
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk"],
+    "item": "mysticalagriculture:inferium_essence",
+    "itemcount": "1/2-3/4-6",
+    "random": 0.15
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk"],
+    "item": "mysticalagriculture:prudentium_essence",
+    "itemcount": "1/1-2/2-3",
+    "random": 0.08
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk"],
+    "item": "mysticalagriculture:tertium_essence",
+    "itemcount": "1/1-2",
+    "random": 0.04
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk"],
+    "item": "mysticalagriculture:imperium_essence",
+    "itemcount": "1/1-2",
+    "random": 0.02
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk"],
+    "item": "mysticalagriculture:supremium_essence",
+    "itemcount": "1/1-2",
+    "random": 0.0001
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk"],
+    "item": "mysticalagradditions:insanium_essence",
+    "itemcount": "1/1-2",
+    "random": 0.00005
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk"],
+    "item": "mysticalextendedtier:ornium_essence",
+    "itemcount": "1/1-2",
+    "random": 0.00002
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk"],
+    "item": "mysticalextendedtier:lightium_essence",
+    "itemcount": "1/1-2",
+    "random": 0.00001
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk"],
+    "item": "mysticalextendedtier:tornium_essence",
+    "itemcount": "1/1-2",
+    "random": 0.00005
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:husk"],
+    "item": "mysticalextendedtier:ouranium_essence",
+    "itemcount": "1/1-2",
+    "random": 0.00001
+  }
+]

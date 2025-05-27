@@ -1,0 +1,24 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "name": "Arcane Crystal",
+    "ingredient": {
+      "item": "forbidden_arcanus:arcane_crystal"
+    },
+    "colors": {
+        "flower": "a5b9f7",
+        "essence": "a5b9f7",
+        "seeds": "a5b9f7"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_rock",
+      "essence": "mysticalagriculture:item/essence_diamond",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    }
+  }
+  

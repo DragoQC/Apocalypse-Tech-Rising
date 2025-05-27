@@ -1,0 +1,25 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:4",
+    "name": "Andesite Alloy",
+    "ingredient": {
+      "item": "create:andesite_alloy"
+    },
+    "colors": {
+        "flower": "a7ad9f",
+        "essence": "a7ad9f",
+        "seeds": "a7ad9f"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    },
+    "crux": "create:andesite_casing"
+  }
+  

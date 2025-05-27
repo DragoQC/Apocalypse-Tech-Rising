@@ -1,0 +1,24 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalextendedtier:8",
+    "name": "Sky Steel Ingot",
+    "ingredient": {
+      "item": "megacells:sky_steel_ingot"
+    },
+    "colors": {
+        "flower": "2c2e2c",
+        "essence": "2c2e2c",
+        "seeds": "2c2e2c"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    }
+  }
+  

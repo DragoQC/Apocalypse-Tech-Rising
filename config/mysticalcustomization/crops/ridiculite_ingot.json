@@ -1,0 +1,24 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalextendedtier:8",
+    "name": "Ridiculite Ingot",
+    "ingredient": {
+      "item": "bigreactors:ridiculite_ingot"
+    },
+    "colors": {
+        "flower": "e5c1ea",
+        "essence": "e5c1ea",
+        "seeds": "e5c1ea"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    }
+  }
+  

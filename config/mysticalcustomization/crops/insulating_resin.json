@@ -1,0 +1,24 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "name": "Insulating Resin",
+    "ingredient": {
+      "item": "appflux:insulating_resin"
+    },
+    "colors": {
+        "flower": "5dd979",
+        "essence": "5dd979",
+        "seeds": "5dd979"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_face",
+      "essence": "mysticalagriculture:item/essence_flame",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    }
+  }
+  

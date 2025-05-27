@@ -1,0 +1,27 @@
+{
+  "mysticalagriculture:fluix": {
+    "tier": "mysticalextendedtier:7"
+  },
+  "mysticalagriculture:netherite": {
+    "tier": "mysticalextendedtier:8"
+  },
+  "mysticalagradditions:nether_star": {
+    "tier": "mysticalextendedtier:10"
+  },
+  "mysticalagriculture:uraninite": {
+    "tier": "mysticalextendedtier:7"
+  },
+  "mysticalagriculture:uranium": {
+    "tier": "mysticalagriculture:5"
+  },
+  "mysticalagradditions:nitro_crystal": {
+    "tier": "mysticalextendedtier:9"
+  },
+  "mysticalagriculture:brass": {
+    "tier": "mysticalextendedtier:8",
+    "crux": "create:brass_casing"
+  },
+  "mysticalagriculture:spirited_crystal": {
+    "tier": "mysticalextendedtier:8"
+  }
+}
