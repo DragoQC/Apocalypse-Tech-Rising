@@ -166,6 +166,11 @@ const singularities = [
     item: 'megacells:cell_component_256m',
     cost: 3,
   },
+  {
+    id: 'coal_singularity',
+    item: 'minecraft:coal_block',
+    cost: 50,
+  },
 ]
 
 ServerEvents.recipes(event => {

@@ -8,5 +8,6 @@
   {"ingredient":{"id":"advanced_ae:quantum_storage_component"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"megacells:cell_component_1m"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"ae2:calculation_processor_press"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"megacells:accumulation_processor_press"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"megacells:accumulation_processor_press"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"refinedstorage:raw_advanced_processor"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]
