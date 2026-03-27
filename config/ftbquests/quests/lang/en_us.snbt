@@ -1,10 +1,10 @@
 {
 	chapter.0D0EE5495A40F24A.title: "Storage Options"
-	chapter.199C3772D854F89F.title: "Basic storage"
+	chapter.199C3772D854F89F.title: "Basic Storage"
 	chapter.1E65D71989E5FD95.title: "Tech Tree"
 	chapter.2163A9B85E6FFCB2.title: "Tech Tree"
 	chapter.23DD714DB33D3DC0.title: "Tech Tree"
-	chapter.2470929AFDBC7992.title: "New weapons"
+	chapter.2470929AFDBC7992.title: "Combat Upgrades"
 	chapter.2EF5133328945047.title: "Enchanting"
 	chapter.33D5C3ED06DC0FF4.title: "Tech Tree"
 	chapter.3414F53F7A86A951.title: "Storage Options"
@@ -15,7 +15,8 @@
 	chapter.499FD5319B93B5B4.title: "Tech Tree"
 	chapter.4EB0B4ED91E72ADA.title: "Storage Options"
 	chapter.51814BA54E0B32A9.title: "Industrial Foregoing"
-	chapter.51ECAADC5426A5C9.title: "Advanced storage"
+	chapter.51ECAADC5426A5C9.title: "Advanced Storage"
+	chapter.6F0A6AB18DCD92F1.title: "Apocalypse Bootcamp"
 	chapter.58F2B1D3FA3AC7C3.title: "Tech Tree"
 	chapter.59725148F9E5E2D4.title: "Tech Tree"
 	chapter.5D442620CDD9EB58.title: "Storage Options"
@@ -23,9 +24,36 @@
 	chapter.6B1723BE08415528.title: "Tech Tree"
 	chapter.6B6335659229F31B.title: "Industrial Foregoing"
 	chapter.7D8B9D251D1D7F5D.title: "Tech Tree"
-	chapter.7F56D717820D0C05.title: "Moving stuff"
-	chapter_group.1E6D2DC5473BDCD4.title: "Other"
-	chapter_group.3D765B55252CA514.title: "Storage"
+	chapter.7F56D717820D0C05.title: "Logistics"
+	chapter_group.1E6D2DC5473BDCD4.title: "Core Progression"
+	chapter_group.3D765B55252CA514.title: "Storage \& Networks"
+	quest.1C2B89B7E90A41D2.quest_desc: ["Set up a real base before the hordes scale up."]
+	quest.1C2B89B7E90A41D2.quest_subtitle: "Bunker Online"
+	quest.1C2B89B7E90A41D2.title: "Fortify Shelter"
+	quest.2D173B55B5E18A48.quest_desc: ["Complete at least one starter logistics route in the Logistics chapter, then confirm here."]
+	quest.2D173B55B5E18A48.quest_subtitle: "Routing Systems"
+	quest.2D173B55B5E18A48.title: "Move Items, Fluids, or Power"
+	quest.2F2CE4E9989A3B15.quest_desc: ["Create's early machines unlock compact automation that is perfect for base defense prep."]
+	quest.2F2CE4E9989A3B15.quest_subtitle: "Mechanical Age"
+	quest.2F2CE4E9989A3B15.title: "First Automation Line"
+	quest.4A2D33F596AE7B90.quest_desc: ["Wood, stone, and zombie drops are your first industrial supply chain."]
+	quest.4A2D33F596AE7B90.quest_subtitle: "Scavenger Protocol"
+	quest.4A2D33F596AE7B90.title: "Scavenge Core Materials"
+	quest.77B3DD4A3A7C6E01.quest_desc: ["Start your progression path for Apocalypse Tech Rising."]
+	quest.77B3DD4A3A7C6E01.quest_subtitle: "Day 0"
+	quest.77B3DD4A3A7C6E01.title: "Wake Up Call"
+	quest.95D9E13A9D7F2A64.quest_desc: ["A stable power source keeps machines alive while you keep yourself alive."]
+	quest.95D9E13A9D7F2A64.quest_subtitle: "Power Grid"
+	quest.95D9E13A9D7F2A64.title: "Generate First Power"
+	quest.A8E8C4B92C44F6A1.quest_desc: ["Complete a basic melee + defense loadout before advancing."]
+	quest.A8E8C4B92C44F6A1.quest_subtitle: "Combat Readiness"
+	quest.A8E8C4B92C44F6A1.title: "Arm Yourself"
+	quest.B53CF2C7709E5A30.quest_desc: ["Complete at least one starter storage route in the Storage chapter, then confirm here."]
+	quest.B53CF2C7709E5A30.quest_subtitle: "Storage Backbone"
+	quest.B53CF2C7709E5A30.title: "Pick a Storage Foundation"
+	quest.C0E2D75A3F31124B.quest_desc: ["Complete any 3 of the 4 branches to finish onboarding and unlock your core tech loop."]
+	quest.C0E2D75A3F31124B.quest_subtitle: "System Online"
+	quest.C0E2D75A3F31124B.title: "Ready for the Tech Tree"
 	quest.00B39CAB96656524.title: "Getting Started"
 	quest.0187F65B1AFF21D4.title: "ME Controller"
 	quest.0188478BDF549A13.quest_subtitle: "{count:1,id:\"bigger_ae2:1024_core_crafting_accelerator\"}"

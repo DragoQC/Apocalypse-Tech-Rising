@@ -1,4 +1,9 @@
 ServerEvents.recipes(event => {
+  const hasAdvancedAE = Platform.isLoaded('advanced_ae');
+  const hasExtendedAE = Platform.isLoaded('extendedae');
+  const hasAppflux = Platform.isLoaded('appflux');
+  const hasMegaCells = Platform.isLoaded('megacells');
+
   // Your working recipes (keeping these as they are)
   event.custom({
     "type": "create:splashing",
@@ -35,7 +40,7 @@ ServerEvents.recipes(event => {
   event.custom({
     "type": "create:sequenced_assembly",
     "ingredient": { "item": "minecraft:cod_spawn_egg" },
-    "transitional_item": { "id": "minecraft:cod_spawn_egg" },
+    "transitionalItem": { "id": "minecraft:cod_spawn_egg" },
     "loops": 1,
     "results": [
       { "id": "minecraft:gold_ingot", "count": 1 }
@@ -69,7 +74,7 @@ ServerEvents.recipes(event => {
 event.custom({
     "type": "create:sequenced_assembly",
     "ingredient": { "item": "ae2:printed_calculation_processor" },
-    "transitional_item": { "id": "ae2:calculation_processor" },
+    "transitionalItem": { "id": "ae2:calculation_processor" },
     "loops": 1,
     "results": [
       { "id": "ae2:calculation_processor", "count": 1 }
@@ -108,7 +113,7 @@ event.custom({
       { "item": "ae2:quartz_block" },
       { "item": "ae2:calculation_processor_press" }
     ],
-    "keep_held_item": true,
+    "keepHeldItem": true,
     "results": [
       {
         "count": 6,
@@ -122,7 +127,7 @@ event.custom({
   event.custom({
     "type": "create:sequenced_assembly",
     "ingredient": { "item": "ae2:printed_engineering_processor" },
-    "transitional_item": { "id": "ae2:engineering_processor" },
+    "transitionalItem": { "id": "ae2:engineering_processor" },
     "loops": 1,
     "results": [
       { "id": "ae2:engineering_processor", "count": 1 }
@@ -161,7 +166,7 @@ event.custom({
       { "item": "minecraft:diamond_block" },
       { "item": "ae2:engineering_processor_press" }
     ],
-    "keep_held_item": true,
+    "keepHeldItem": true,
     "results": [
       {
         "count": 12,
@@ -175,7 +180,7 @@ event.custom({
   event.custom({
     "type": "create:sequenced_assembly",
     "ingredient": { "item": "ae2:printed_logic_processor" },
-    "transitional_item": { "id": "ae2:logic_processor" },
+    "transitionalItem": { "id": "ae2:logic_processor" },
     "loops": 1,
     "results": [
       { "id": "ae2:logic_processor", "count": 1 }
@@ -214,7 +219,7 @@ event.custom({
       { "item": "minecraft:gold_block" },
       { "item": "ae2:logic_processor_press"}
     ],
-    "keep_held_item": true,
+    "keepHeldItem": true,
     "results": [
       {
         "count": 12,
@@ -231,7 +236,7 @@ event.custom({
       { "tag": "c:storage_blocks/silicon" },
       { "item": "ae2:silicon_press"}
     ],
-    "keep_held_item": true,
+    "keepHeldItem": true,
     "results": [
       {
         "count": 12,
@@ -242,218 +247,222 @@ event.custom({
     ]
   }).id("create:ae2/printed_silicon_from_silicon_block");
 
-  event.custom({
-    "type": "create:sequenced_assembly",
-    "ingredient": { "item": "advanced_ae:printed_quantum_processor" },
-    "transitional_item": { "id": "advanced_ae:quantum_processor" },
-    "loops": 1,
-    "results": [
-      { "id": "advanced_ae:quantum_processor", "count": 1 }
-    ],
-    "sequence": [
-      {
-        "type": "create:deploying",
-        "ingredients": [
-          { "item": "advanced_ae:printed_quantum_processor" },          
-          { "item": "minecraft:redstone" }
-        ],
-        "results": [{ "id": "advanced_ae:quantum_processor" }]
-      },
-      {
-        "type": "create:deploying",
-        "ingredients": [
-          { "item": "advanced_ae:printed_quantum_processor" },
-          { "item": "ae2:printed_silicon" }
-        ],
-        "results": [{ "id": "advanced_ae:quantum_processor" }]
-      },
-      {
-        "type": "create:pressing",
-        "ingredients": [
-          { "item": "advanced_ae:printed_quantum_processor" }
-        ],
-        "results": [{ "id": "advanced_ae:quantum_processor" }]
-      },
-    ]
-  }).id("create:ae2/quantum_processor_from_printed_quantum_processor");
+  if (hasAdvancedAE) {
+    event.custom({
+      "type": "create:sequenced_assembly",
+      "ingredient": { "item": "advanced_ae:printed_quantum_processor" },
+      "transitionalItem": { "id": "advanced_ae:quantum_processor" },
+      "loops": 1,
+      "results": [
+        { "id": "advanced_ae:quantum_processor", "count": 1 }
+      ],
+      "sequence": [
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            { "item": "advanced_ae:printed_quantum_processor" },          
+            { "item": "minecraft:redstone" }
+          ],
+          "results": [{ "id": "advanced_ae:quantum_processor" }]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            { "item": "advanced_ae:printed_quantum_processor" },
+            { "item": "ae2:printed_silicon" }
+          ],
+          "results": [{ "id": "advanced_ae:quantum_processor" }]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            { "item": "advanced_ae:printed_quantum_processor" }
+          ],
+          "results": [{ "id": "advanced_ae:quantum_processor" }]
+        },
+      ]
+    }).id("create:ae2/quantum_processor_from_printed_quantum_processor");
 
-
-  event.custom({
-    "type": "create:deploying",
-    "ingredients": [
-      { "item": "advanced_ae:quantum_alloy_block" },
-      { "item": "advanced_ae:quantum_processor_press"}
-    ],
-    "keep_held_item": true,
-    "results": [
-      {
-        "count": 12,
-        "item": {
-          "id": "advanced_ae:printed_quantum_processor"
+    event.custom({
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "advanced_ae:quantum_alloy_block" },
+        { "item": "advanced_ae:quantum_processor_press"}
+      ],
+      "keepHeldItem": true,
+      "results": [
+        {
+          "count": 12,
+          "item": {
+            "id": "advanced_ae:printed_quantum_processor"
+          }
         }
-      }
-    ]
-  }).id("create:ae2/printed_quantum_processor_from_quartz_block");
+      ]
+    }).id("create:ae2/printed_quantum_processor_from_quartz_block");
+  }
 
-  event.custom({
-    "type": "create:sequenced_assembly",
-    "ingredient": { "item": "extendedae:concurrent_processor_print" },
-    "transitional_item": { "id": "extendedae:concurrent_processor" },
-    "loops": 1,
-    "results": [
-      { "id": "extendedae:concurrent_processor", "count": 1 }
-    ],
-    "sequence": [
-      {
-        "type": "create:deploying",
-        "ingredients": [
-          { "item": "extendedae:concurrent_processor_print" },          
-          { "item": "minecraft:redstone" }
-        ],
-        "results": [{ "id": "extendedae:concurrent_processor" }]
-      },
-      {
-        "type": "create:deploying",
-        "ingredients": [
-          { "item": "extendedae:concurrent_processor_print" },
-          { "item": "ae2:printed_silicon" }
-        ],
-        "results": [{ "id": "extendedae:concurrent_processor" }]
-      },
-      {
-        "type": "create:pressing",
-        "ingredients": [
-          { "item": "extendedae:concurrent_processor_print" }
-        ],
-        "results": [{ "id": "extendedae:concurrent_processor" }]
-      },
-    ]
-  }).id("create:ae2/concurrent_processor_from_concurrent_processor_print");
+  if (hasExtendedAE) {
+    event.custom({
+      "type": "create:sequenced_assembly",
+      "ingredient": { "item": "extendedae:concurrent_processor_print" },
+      "transitionalItem": { "id": "extendedae:concurrent_processor" },
+      "loops": 1,
+      "results": [
+        { "id": "extendedae:concurrent_processor", "count": 1 }
+      ],
+      "sequence": [
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            { "item": "extendedae:concurrent_processor_print" },          
+            { "item": "minecraft:redstone" }
+          ],
+          "results": [{ "id": "extendedae:concurrent_processor" }]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            { "item": "extendedae:concurrent_processor_print" },
+            { "item": "ae2:printed_silicon" }
+          ],
+          "results": [{ "id": "extendedae:concurrent_processor" }]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            { "item": "extendedae:concurrent_processor_print" }
+          ],
+          "results": [{ "id": "extendedae:concurrent_processor" }]
+        },
+      ]
+    }).id("create:ae2/concurrent_processor_from_concurrent_processor_print");
 
-
-  event.custom({
-    "type": "create:deploying",
-    "ingredients": [
-      { "item": "extendedae:entro_block" },
-      { "item": "extendedae:concurrent_processor_press" }
-    ],
-    "keep_held_item": true,
-    "results": [
-      {
-        "count": 6,
-        "item": {
-          "id": "extendedae:concurrent_processor_print"
+    event.custom({
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "extendedae:entro_block" },
+        { "item": "extendedae:concurrent_processor_press" }
+      ],
+      "keepHeldItem": true,
+      "results": [
+        {
+          "count": 6,
+          "item": {
+            "id": "extendedae:concurrent_processor_print"
+          }
         }
-      }
-    ]
-  }).id("create:ae2/printed_concurrent_processor_from_entro_block");
+      ]
+    }).id("create:ae2/printed_concurrent_processor_from_entro_block");
+  }
 
-  event.custom({
-    "type": "create:sequenced_assembly",
-    "ingredient": { "item": "appflux:printed_energy_processor" },
-    "transitional_item": { "id": "appflux:energy_processor" },
-    "loops": 1,
-    "results": [
-      { "id": "appflux:energy_processor", "count": 1 }
-    ],
-    "sequence": [
-      {
-        "type": "create:deploying",
-        "ingredients": [
-          { "item": "appflux:printed_energy_processor" },          
-          { "item": "minecraft:redstone" }
-        ],
-        "results": [{ "id": "appflux:energy_processor" }]
-      },
-      {
-        "type": "create:deploying",
-        "ingredients": [
-          { "item": "appflux:printed_energy_processor" },
-          { "item": "ae2:printed_silicon" }
-        ],
-        "results": [{ "id": "appflux:energy_processor" }]
-      },
-      {
-        "type": "create:pressing",
-        "ingredients": [
-          { "item": "appflux:printed_energy_processor" }
-        ],
-        "results": [{ "id": "appflux:energy_processor" }]
-      },
-    ]
-  }).id("create:ae2/energy_processor_from_energy_processor_print");
+  if (hasAppflux) {
+    event.custom({
+      "type": "create:sequenced_assembly",
+      "ingredient": { "item": "appflux:printed_energy_processor" },
+      "transitionalItem": { "id": "appflux:energy_processor" },
+      "loops": 1,
+      "results": [
+        { "id": "appflux:energy_processor", "count": 1 }
+      ],
+      "sequence": [
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            { "item": "appflux:printed_energy_processor" },          
+            { "item": "minecraft:redstone" }
+          ],
+          "results": [{ "id": "appflux:energy_processor" }]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            { "item": "appflux:printed_energy_processor" },
+            { "item": "ae2:printed_silicon" }
+          ],
+          "results": [{ "id": "appflux:energy_processor" }]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            { "item": "appflux:printed_energy_processor" }
+          ],
+          "results": [{ "id": "appflux:energy_processor" }]
+        },
+      ]
+    }).id("create:ae2/energy_processor_from_energy_processor_print");
 
-
-  event.custom({
-    "type": "create:deploying",
-    "ingredients": [
-      { "item": "appflux:charged_redstone_block" },
-      { "item": "appflux:energy_processor_press" }
-    ],
-    "keep_held_item": true,
-    "results": [
-      {
-        "count": 12,
-        "item": {
-          "id": "appflux:printed_energy_processor"
+    event.custom({
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "appflux:charged_redstone_block" },
+        { "item": "appflux:energy_processor_press" }
+      ],
+      "keepHeldItem": true,
+      "results": [
+        {
+          "count": 12,
+          "item": {
+            "id": "appflux:printed_energy_processor"
+          }
         }
-      }
-    ]
-  }).id("create:ae2/printed_energy_processor_from_charged_redstone_block");
+      ]
+    }).id("create:ae2/printed_energy_processor_from_charged_redstone_block");
+  }
 
 
 
-  event.custom({
-    "type": "create:sequenced_assembly",
-    "ingredient": { "item": "megacells:printed_accumulation_processor" },
-    "transitional_item": { "id": "megacells:accumulation_processor" },
-    "loops": 1,
-    "results": [
-      { "id": "megacells:accumulation_processor", "count": 1 }
-    ],
-    "sequence": [
-      {
-        "type": "create:deploying",
-        "ingredients": [
-          { "item": "megacells:printed_accumulation_processor" },          
-          { "item": "ae2:fluix_dust" }
-        ],
-        "results": [{ "id": "megacells:accumulation_processor" }]
-      },
-      {
-        "type": "create:deploying",
-        "ingredients": [
-          { "item": "megacells:printed_accumulation_processor" },
-          { "item": "ae2:printed_silicon" }
-        ],
-        "results": [{ "id": "megacells:accumulation_processor" }]
-      },
-      {
-        "type": "create:pressing",
-        "ingredients": [
-          { "item": "megacells:printed_accumulation_processor" }
-        ],
-        "results": [{ "id": "megacells:accumulation_processor" }]
-      },
-    ]
-  }).id("create:ae2/accumulation_processor_from_printed_accumulation_processor");
+  if (hasMegaCells) {
+    event.custom({
+      "type": "create:sequenced_assembly",
+      "ingredient": { "item": "megacells:printed_accumulation_processor" },
+      "transitionalItem": { "id": "megacells:accumulation_processor" },
+      "loops": 1,
+      "results": [
+        { "id": "megacells:accumulation_processor", "count": 1 }
+      ],
+      "sequence": [
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            { "item": "megacells:printed_accumulation_processor" },          
+            { "item": "ae2:fluix_dust" }
+          ],
+          "results": [{ "id": "megacells:accumulation_processor" }]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            { "item": "megacells:printed_accumulation_processor" },
+            { "item": "ae2:printed_silicon" }
+          ],
+          "results": [{ "id": "megacells:accumulation_processor" }]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            { "item": "megacells:printed_accumulation_processor" }
+          ],
+          "results": [{ "id": "megacells:accumulation_processor" }]
+        },
+      ]
+    }).id("create:ae2/accumulation_processor_from_printed_accumulation_processor");
 
-
-  event.custom({
-    "type": "create:deploying",
-    "ingredients": [
-      { "item": "megacells:sky_steel_block" },
-      { "item": "megacells:accumulation_processor_press" }
-    ],
-    "keep_held_item": true,
-    "results": [
-      {
-        "count": 12,
-        "item": {
-          "id": "megacells:printed_accumulation_processor"
+    event.custom({
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "megacells:sky_steel_block" },
+        { "item": "megacells:accumulation_processor_press" }
+      ],
+      "keepHeldItem": true,
+      "results": [
+        {
+          "count": 12,
+          "item": {
+            "id": "megacells:printed_accumulation_processor"
+          }
         }
-      }
-    ]
-  }).id("create:ae2/printed_accumulation_processor_from_quartz_block");
+      ]
+    }).id("create:ae2/printed_accumulation_processor_from_quartz_block");
+  }
 
 });

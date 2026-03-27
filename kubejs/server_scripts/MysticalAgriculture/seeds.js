@@ -623,62 +623,6 @@ ServerEvents.recipes(event => {
   }).id("custom:mysticalagriculture/infusion/blutonium_ingot_seeds");
 
 
-  event.custom({
-    type: "mysticalagriculture:infusion",
-    input: {
-      item: "mysticalagriculture:prosperity_seed_base",
-    },
-    ingredients: [
-      {
-        item: "forbidden_arcanus:arcane_crystal_dust",
-      },
-      { item: "mysticalextendedtier:lightium_essence" },
-      {
-        item: "forbidden_arcanus:mundabitur_dust"
-      },
-      { item: "mysticalextendedtier:lightium_essence" },
-      {
-        item: "forbidden_arcanus:arcane_crystal_dust",
-      },
-      { item: "mysticalextendedtier:lightium_essence" },
-      {
-        item: "forbidden_arcanus:mundabitur_dust"
-      },
-      { item: "mysticalextendedtier:lightium_essence" },
-    ],
-    result: {
-      id: "mysticalagriculture:deorum_ingot_seeds",
-    },
-  }).id("custom:mysticalagriculture/infusion/deorum_ingot_seeds");
-
-   event.custom({
-    type: "mysticalagriculture:infusion",
-    input: {
-      item: "mysticalagriculture:prosperity_seed_base",
-    },
-    ingredients: [
-      {
-        item: "forbidden_arcanus:arcane_crystal_block",
-      },
-      { item: "mysticalagriculture:imperium_essence" },
-      {
-        item: "forbidden_arcanus:arcane_crystal_block"
-      },
-      { item: "mysticalagriculture:imperium_essence" },
-      {
-        item: "forbidden_arcanus:arcane_crystal_block",
-      },
-      { item: "mysticalagriculture:imperium_essence" },
-      {
-        item: "forbidden_arcanus:arcane_crystal_block"
-      },
-      { item: "mysticalagriculture:imperium_essence" },
-    ],
-    result: {
-      id: "mysticalagriculture:arcane_crystal_seeds",
-    },
-  }).id("custom:mysticalagriculture/infusion/arcane_crystal_seeds");
-
    event.custom({
     type: "mysticalagriculture:infusion",
     input: {
@@ -825,46 +769,6 @@ ServerEvents.recipes(event => {
       item: "mysticalagriculture:prosperity_seed_base",
     },
     ingredients: [
-      { item: "irons_spellbooks:arcane_ingot", },
-      { item: "mysticalagradditions:insanium_essence" },
-      { item: "irons_spellbooks:arcane_essence", },
-      { item: "mysticalagradditions:insanium_essence" },
-      { item: "irons_spellbooks:arcane_ingot" },
-      { item: "mysticalagradditions:insanium_essence" },
-      { item: "irons_spellbooks:arcane_essence", },
-      { item: "mysticalagradditions:insanium_essence" },
-    ],
-    result: {
-      id: "mysticalagriculture:arcane_essence_seeds",
-    },
-  }).id("custom:mysticalagriculture/infusion/arcane_essence_seeds");
-
-  event.custom({
-    type: "mysticalagriculture:infusion",
-    input: {
-      item: "mysticalagriculture:prosperity_seed_base",
-    },
-    ingredients: [
-      { item: "irons_spellbooks:cinder_essence", },
-      { item: "mysticalextendedtier:tornium_essence" },
-      { item: "irons_spellbooks:cinder_essence", },
-      { item: "mysticalextendedtier:tornium_essence" },
-      { item: "irons_spellbooks:cinder_essence" },
-      { item: "mysticalextendedtier:tornium_essence" },
-      { item: "irons_spellbooks:cinder_essence", },
-      { item: "mysticalextendedtier:tornium_essence" },
-    ],
-    result: {
-      id: "mysticalagriculture:cinder_essence_seeds",
-    },
-  }).id("custom:mysticalagriculture/infusion/cinder_essence_seeds");
-
-  event.custom({
-    type: "mysticalagriculture:infusion",
-    input: {
-      item: "mysticalagriculture:prosperity_seed_base",
-    },
-    ingredients: [
       { item: "justdirethings:time_crystal", },
       { item: "mysticalextendedtier:ouranium_block" },
       { item: "minecraft:netherite_block", },
@@ -878,46 +782,6 @@ ServerEvents.recipes(event => {
       id: "mysticalagriculture:time_crystal_seeds ",
     },
   }).id("custom:mysticalagriculture/infusion/time_crystal_seeds");
-
-  event.custom({
-    type: "mysticalagriculture:infusion",
-    input: {
-      item: "mysticalagriculture:prosperity_seed_base",
-    },
-    ingredients: [
-      { item: "irons_spellbooks:mithril_ingot", },
-      { item: "mysticalextendedtier:lightium_essence" },
-      { item: "irons_spellbooks:mithril_ingot", },
-      { item: "mysticalextendedtier:lightium_essence" },
-      { item: "irons_spellbooks:mithril_ingot" },
-      { item: "mysticalextendedtier:lightium_essence" },
-      { item: "irons_spellbooks:mithril_ingot", },
-      { item: "mysticalextendedtier:lightium_essence" },
-    ],
-    result: {
-      id: "mysticalagriculture:mithril_scrap_seeds", 
-    },
-  }).id("custom:mysticalagriculture/infusion/mithril_scrap_seeds");
-
-   event.custom({
-    type: "mysticalagriculture:infusion",
-    input: {
-      item: "mysticalagriculture:prosperity_seed_base",
-    },
-    ingredients: [
-      { item: "forbidden_arcanus:stellarite_piece", },
-      { item: "mysticalextendedtier:tornium_essence" },
-      { item: "forbidden_arcanus:stellarite_piece", },
-      { item: "mysticalextendedtier:tornium_essence" },
-      { item: "forbidden_arcanus:stellarite_piece" },
-      { item: "mysticalextendedtier:tornium_essence" },
-      { item: "forbidden_arcanus:stellarite_piece", },
-      { item: "mysticalextendedtier:tornium_essence" },
-    ],
-    result: {
-      id: "mysticalagriculture:stellarite_seeds", 
-    },
-  }).id("custom:mysticalagriculture/infusion/stellarite_seeds");
 
    event.custom({
     type: "mysticalagriculture:infusion",
@@ -938,5 +802,25 @@ ServerEvents.recipes(event => {
       id: "mysticalagriculture:prosperity_shard_seeds", 
     },
   }).id("custom:mysticalagriculture/infusion/prosperity_shard_seeds");
+
+  event.custom({
+    type: "mysticalagriculture:infusion",
+    input: {
+      item: "mysticalagriculture:prosperity_seed_base",
+    },
+    ingredients: [
+      { item: "mekanism:block_antimatter" },
+      { item: "mysticalextendedtier:ouranium_essence" },
+      { item: "mekanism:pellet_antimatter" },
+      { item: "mysticalextendedtier:ouranium_essence" },
+      { item: "mekanism:block_antimatter" },
+      { item: "mysticalextendedtier:ouranium_essence" },
+      { item: "mekanism:pellet_antimatter" },
+      { item: "mysticalextendedtier:ouranium_essence" },
+    ],
+    result: {
+      id: "mysticalagriculture:antimatter_pellet_seeds",
+    },
+  }).id("custom:mysticalagriculture/infusion/antimatter_pellet_seeds");
 
 });

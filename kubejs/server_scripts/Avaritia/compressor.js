@@ -152,11 +152,6 @@ const singularities = [
     cost: 1000,
   },
   {
-    id: 'eternal_stella_singularity',
-    item: 'forbidden_arcanus:eternal_stella',
-    cost: 5,
-  },
-  {
     id: 'refined_storage_singularity',
     item: 'extradisks:1048576k_item_storage_part',
     cost: 3,

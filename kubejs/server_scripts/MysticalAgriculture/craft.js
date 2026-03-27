@@ -62,6 +62,24 @@ ServerEvents.recipes(event => {
     E: "mysticalagriculture:rose_quartz_essence"
   }).id("custom:mysticalagriculture/rose_quartz_essence_to_crystal");
 
+  event.shaped(Item.of("create:polished_rose_quartz", 2), [
+    "EEE",
+    "SES",
+    "EEE"
+  ], {
+    S: "minecraft:sand",
+    E: "mysticalagriculture:rose_quartz_essence"
+  }).id("custom:mysticalagriculture/rose_quartz_essence_to_polished_crystal");
+
+  event.shaped(Item.of("mekanism:pellet_antimatter", 1), [
+    "EEE",
+    "ESE",
+    "EEE"
+  ], {
+    E: "mysticalagriculture:antimatter_pellet_essence",
+    S: "minecraft:nether_star"
+  }).id("custom:mysticalagriculture/antimatter_pellet_essence_to_pellet");
+
   event.shaped(Item.of("create:andesite_alloy", 6), [
     "EEE",
     "EAE",
@@ -271,26 +289,6 @@ ServerEvents.recipes(event => {
       E: "mysticalagriculture:sky_steel_ingot_essence"
     }).id("custom:mysticalagriculture/sky_steel_ingot_essence_to_ingot");
 
-    event.shaped(Item.of("forbidden_arcanus:deorum_nugget", 3),
-    [
-      "EEE",
-      "E E",
-      "EEE"
-    ],
-    {
-      E: "mysticalagriculture:deorum_ingot_essence"
-    }).id("custom:mysticalagriculture/deorum_ingot_essence_to_ingot");
-
-    event.shaped(Item.of("forbidden_arcanus:arcane_crystal", 2),
-    [
-      "EEE",
-      "E E",
-      "EEE"
-    ],
-    {
-      E: "mysticalagriculture:arcane_crystal_essence"
-    }).id("custom:mysticalagriculture/arcane_crystal_essence_to_crystal");
-
     event.shaped(Item.of("minecraft:blue_ice", 2),
     [
       "EEE",
@@ -312,17 +310,6 @@ ServerEvents.recipes(event => {
       A: "minecraft:blue_ice"
     }).id("custom:mysticalagriculture/ice_essence_to_dry_ice");
 
-    event.shaped(Item.of("ars_nouveau:experience_gem", 1),
-    [
-      "EEE",
-      "EGE",
-      "EEE"
-    ],
-    {
-      E: "mysticalagriculture:experience_essence",
-      G: "ars_nouveau:source_gem",
-    }).id("custom:mysticalagriculture/experience_essence_to_experience_gem");
-
     event.shaped(Item.of("create:experience_nugget", 2),
     [
       "EEE",
@@ -342,25 +329,6 @@ ServerEvents.recipes(event => {
     {
       E: "mysticalagriculture:experience_essence",
     }).id("custom:mysticalagriculture/experience_essence_solid");
-
-    event.shaped(Item.of("forbidden_arcanus:xpetrified_orb", 2),
-    [
-      "E E",
-      " A ",
-      "E E"
-    ],
-    {
-      E: "mysticalagriculture:experience_essence",
-      A: "forbidden_arcanus:stellarite_piece",
-    }).id("custom:mysticalagriculture/experience_essence_to_solidified_experience");
-
-    event.shaped('forbidden_arcanus:tentacle', [
-    ' A ',
-    'A A',
-    '  A'
-  ], {
-    A: 'mysticalagriculture:squid_essence',
-  }).id("custom:mysticalagriculture/forbidden_arcanus_tentacle");
 
   event.shaped('crabbersdelight:raw_squid_tentacles', [
     ' A ',
@@ -477,31 +445,6 @@ event.shaped(Item.of("mekanism:dust_lithium", 5), [
     A: 'mysticalagriculture:sky_bronze_ingot_essence',
   }).id("custom:mysticalagriculture/sky_bronze_ingot_essence");
 
-  event.shaped(Item.of("irons_spellbooks:arcane_essence", 4), [
-    'AAA',
-    'AAA',
-    'AAA'
-  ], {
-    A: 'mysticalagriculture:arcane_essence_essence',
-  }).id("custom:mysticalagriculture/arcane_essence_essence");
-
-  event.shaped(Item.of("irons_spellbooks:arcane_essence", 8), [
-    'AAA',
-    'ABA',
-    'AAA'
-  ], {
-    A: 'mysticalagriculture:arcane_essence_essence',
-    B: 'minecraft:iron_ingot',
-  }).id("custom:mysticalagriculture/arcane_essence_iron_essence");
-
-  event.shaped(Item.of("irons_spellbooks:cinder_essence", 4), [
-    'AAA',
-    'AAA',
-    'AAA'
-  ], {
-    A: 'mysticalagriculture:cinder_essence_essence',
-  }).id("custom:mysticalagriculture/cinder_essence_essence");
-
   event.shaped(Item.of("justdirethings:time_crystal", 1), [
     'AAA',
     'AAA',
@@ -509,23 +452,6 @@ event.shaped(Item.of("mekanism:dust_lithium", 5), [
   ], {
     A: 'mysticalagriculture:time_crystal_essence',
   }).id("custom:mysticalagriculture/time_crystal_essence");
-
-  event.shaped(Item.of("irons_spellbooks:mithril_scrap", 1), [
-    'AAA',
-    'A A',
-    'AAA'
-  ], {
-    A: 'mysticalagriculture:mithril_scrap_essence',
-  }).id("custom:mysticalagriculture/mithril_scrap_essence");
-
-
-  event.shaped(Item.of("forbidden_arcanus:stellarite_piece", 1), [
-    'AAA',
-    'A A',
-    'AAA'
-  ], {
-    A: 'mysticalagriculture:stellarite_essence',
-  }).id("custom:mysticalagriculture/stellarite_essence");
 
   event.shaped(Item.of("mysticalagriculture:prosperity_shard", 1), [
     ' A ',
