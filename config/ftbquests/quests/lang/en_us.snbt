@@ -25,6 +25,7 @@
 	chapter.6B6335659229F31B.title: "Industrial Foregoing"
 	chapter.7D8B9D251D1D7F5D.title: "Tech Tree"
 	chapter.7F56D717820D0C05.title: "Logistics"
+	chapter.A4A1000000000001.title: "Avaritia Ascension"
 	chapter_group.1E6D2DC5473BDCD4.title: "Core Progression"
 	chapter_group.3D765B55252CA514.title: "Storage \& Networks"
 	quest.1C2B89B7E90A41D2.quest_desc: ["Set up a real base before the hordes scale up."]
@@ -54,6 +55,23 @@
 	quest.C0E2D75A3F31124B.quest_desc: ["Complete any 3 of the 4 branches to finish onboarding and unlock your core tech loop."]
 	quest.C0E2D75A3F31124B.quest_subtitle: "System Online"
 	quest.C0E2D75A3F31124B.title: "Ready for the Tech Tree"
+	quest.A4A1000000000100.quest_desc: ["This chapter tracks meaningful Avaritia milestones, not filler collection chores."]
+	quest.A4A1000000000100.title: "Avaritia Unleashed"
+	quest.A4A1000000000101.title: "Extreme Crafting Table"
+	quest.A4A1000000000102.title: "Compressor Online"
+	quest.A4A1000000000103.title: "Neutron Collector"
+	quest.A4A1000000000104.title: "Neutron Pile"
+	quest.A4A1000000000105.title: "Neutronium Ingot"
+	quest.A4A1000000000106.title: "Crystal Matrix Ingot"
+	quest.A4A1000000000107.title: "Cosmic Meatballs"
+	quest.A4A1000000000108.title: "Ultimate Stew"
+	quest.A4A1000000000109.title: "Infinity Catalyst"
+	quest.A4A100000000010A.title: "Infinity Singularity"
+	quest.A4A100000000010B.title: "Infinity Ingot"
+	quest.A4A100000000010C.title: "Infinity Sword"
+	quest.A4A100000000010D.title: "Infinity Armor Set"
+	quest.A4A100000000010E.quest_desc: ["Craft all four infinite storage parts from your custom Avaritia/Create integration."]
+	quest.A4A100000000010E.title: "Beyond Infinite Storage"
 	quest.00B39CAB96656524.title: "Getting Started"
 	quest.0187F65B1AFF21D4.title: "ME Controller"
 	quest.0188478BDF549A13.quest_subtitle: "{count:1,id:\"bigger_ae2:1024_core_crafting_accelerator\"}"
@@ -386,4 +404,5 @@
 	task.7BF46C61E9D888B3.title: "Any #sophisticatedstorage:all_storage"
 	task.7E1262357364C553.title: "Any #simplyswords:halberds"
 	task.7F10957C9A875ADE.title: "Any #minecraft:logs"
+	task.A4A1000000001100.title: "Read The Chapter Intro"
 }

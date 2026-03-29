@@ -6,9 +6,9 @@
       "item": "mekanism:pellet_antimatter"
     },
     "colors": {
-        "flower": "ff4b2b",
-        "essence": "ff4b2b",
-        "seeds": "ff4b2b"
+        "flower": "d8b4fe",
+        "essence": "d8b4fe",
+        "seeds": "d8b4fe"
     },
     "textures": {
       "flower": "mysticalagriculture:block/flower_dust",

@@ -3,78 +3,12 @@ ServerEvents.recipes(event => {
   const hasExtendedAE = Platform.isLoaded('extendedae');
   const hasAppflux = Platform.isLoaded('appflux');
   const hasMegaCells = Platform.isLoaded('megacells');
-
-  // Your working recipes (keeping these as they are)
-  event.custom({
-    "type": "create:splashing",
-    "ingredients": [
-      { "item": "minecraft:cod_spawn_egg" }
-    ],
-    "results": [
-      {
-        "count": 1,
-        "item": {
-          "id": "minecraft:zombie_spawn_egg"
-        }
-      }
-    ]
-  }).id("kubejs:splash_cod_to_zombie_egg");
-
-  event.custom({
-    "type": "create:pressing",
-    "ingredients": [
-      { "item": "minecraft:cod_spawn_egg" }
-    ],
-    "results": [
-      {
-        "count": 1,
-        "item": {
-          "id": "minecraft:zombie_spawn_egg"
-        }
-      }
-    ]
-  }).id("kubejs:press_cod_to_zombie_egg");
-
-
-
-  event.custom({
-    "type": "create:sequenced_assembly",
-    "ingredient": { "item": "minecraft:cod_spawn_egg" },
-    "transitionalItem": { "id": "minecraft:cod_spawn_egg" },
-    "loops": 1,
-    "results": [
-      { "id": "minecraft:gold_ingot", "count": 1 }
-    ],
-    "sequence": [
-      {
-        "type": "create:pressing",
-        "ingredients": [{ "item": "minecraft:cod_spawn_egg" }],
-        "results": [{ "id": "minecraft:cod_spawn_egg" }]
-      },
-      {
-        "type": "create:deploying",
-        "ingredients": [
-          { "item": "minecraft:cod_spawn_egg" },
-          { "item": "minecraft:diamond" }
-        ],
-        "results": [{ "id": "minecraft:cod_spawn_egg" }]
-      },
-      {
-        "type": "create:deploying",
-        "ingredients": [
-          { "item": "minecraft:cod_spawn_egg" },
-          { "item": "minecraft:gold_ingot", "return_chance": 1.0 }
-        ],
-        "results": [{ "id": "minecraft:cod_spawn_egg" }]
-      }
-    ]
-  }).id("kubejs:test_assembly_with_diamond_tool_water");
-
+  const hasPowah = Platform.isLoaded('powah');
 
 event.custom({
     "type": "create:sequenced_assembly",
     "ingredient": { "item": "ae2:printed_calculation_processor" },
-    "transitionalItem": { "id": "ae2:calculation_processor" },
+    "transitional_item": { "id": "ae2:calculation_processor" },
     "loops": 1,
     "results": [
       { "id": "ae2:calculation_processor", "count": 1 }
@@ -104,7 +38,7 @@ event.custom({
         "results": [{ "id": "ae2:calculation_processor" }]
       },
     ]
-  }).id("create:ae2/calculation_processor_from_printed_calculation_processor");
+  }).id("drago:ae2/calculation_processor_from_printed_calculation_processor");
 
 
   event.custom({
@@ -117,17 +51,15 @@ event.custom({
     "results": [
       {
         "count": 6,
-        "item": {
-          "id": "ae2:printed_calculation_processor"
-        }
+        "id": "ae2:printed_calculation_processor"
       }
     ]
-  }).id("create:ae2/printed_calculation_processor_from_quartz_block");
+  }).id("drago:ae2/printed_calculation_processor_from_quartz_block");
 
   event.custom({
     "type": "create:sequenced_assembly",
     "ingredient": { "item": "ae2:printed_engineering_processor" },
-    "transitionalItem": { "id": "ae2:engineering_processor" },
+    "transitional_item": { "id": "ae2:engineering_processor" },
     "loops": 1,
     "results": [
       { "id": "ae2:engineering_processor", "count": 1 }
@@ -157,7 +89,7 @@ event.custom({
         "results": [{ "id": "ae2:engineering_processor" }]
       },
     ]
-  }).id("create:ae2/engineering_processor_from_printed_engineering_processor");
+  }).id("drago:ae2/engineering_processor_from_printed_engineering_processor");
 
 
   event.custom({
@@ -170,17 +102,15 @@ event.custom({
     "results": [
       {
         "count": 12,
-        "item": {
-          "id": "ae2:printed_engineering_processor"
-        }
+        "id": "ae2:printed_engineering_processor"
       }
     ]
-  }).id("create:ae2/printed_engineering_processor_from_quartz_block");
+  }).id("drago:ae2/printed_engineering_processor_from_quartz_block");
 
   event.custom({
     "type": "create:sequenced_assembly",
     "ingredient": { "item": "ae2:printed_logic_processor" },
-    "transitionalItem": { "id": "ae2:logic_processor" },
+    "transitional_item": { "id": "ae2:logic_processor" },
     "loops": 1,
     "results": [
       { "id": "ae2:logic_processor", "count": 1 }
@@ -210,7 +140,7 @@ event.custom({
         "results": [{ "id": "ae2:logic_processor" }]
       },
     ]
-  }).id("create:ae2/logic_processor_from_printed_logic_processor");
+  }).id("drago:ae2/logic_processor_from_printed_logic_processor");
 
 
   event.custom({
@@ -223,12 +153,10 @@ event.custom({
     "results": [
       {
         "count": 12,
-        "item": {
-          "id": "ae2:printed_logic_processor"
-        }
+        "id": "ae2:printed_logic_processor"
       }
     ]
-  }).id("create:ae2/printed_logic_processor_from_quartz_block");
+  }).id("drago:ae2/printed_logic_processor_from_quartz_block");
 
   event.custom({
     "type": "create:deploying",
@@ -240,18 +168,16 @@ event.custom({
     "results": [
       {
         "count": 12,
-        "item": {
-          "id": "ae2:printed_silicon"
-        }
+        "id": "ae2:printed_silicon"
       }
     ]
-  }).id("create:ae2/printed_silicon_from_silicon_block");
+  }).id("drago:ae2/printed_silicon_from_silicon_block");
 
   if (hasAdvancedAE) {
     event.custom({
       "type": "create:sequenced_assembly",
       "ingredient": { "item": "advanced_ae:printed_quantum_processor" },
-      "transitionalItem": { "id": "advanced_ae:quantum_processor" },
+      "transitional_item": { "id": "advanced_ae:quantum_processor" },
       "loops": 1,
       "results": [
         { "id": "advanced_ae:quantum_processor", "count": 1 }
@@ -281,7 +207,7 @@ event.custom({
           "results": [{ "id": "advanced_ae:quantum_processor" }]
         },
       ]
-    }).id("create:ae2/quantum_processor_from_printed_quantum_processor");
+    }).id("drago:ae2/quantum_processor_from_printed_quantum_processor");
 
     event.custom({
       "type": "create:deploying",
@@ -293,19 +219,17 @@ event.custom({
       "results": [
         {
           "count": 12,
-          "item": {
-            "id": "advanced_ae:printed_quantum_processor"
-          }
+          "id": "advanced_ae:printed_quantum_processor"
         }
       ]
-    }).id("create:ae2/printed_quantum_processor_from_quartz_block");
+    }).id("drago:ae2/printed_quantum_processor_from_quartz_block");
   }
 
   if (hasExtendedAE) {
     event.custom({
       "type": "create:sequenced_assembly",
       "ingredient": { "item": "extendedae:concurrent_processor_print" },
-      "transitionalItem": { "id": "extendedae:concurrent_processor" },
+      "transitional_item": { "id": "extendedae:concurrent_processor" },
       "loops": 1,
       "results": [
         { "id": "extendedae:concurrent_processor", "count": 1 }
@@ -335,7 +259,7 @@ event.custom({
           "results": [{ "id": "extendedae:concurrent_processor" }]
         },
       ]
-    }).id("create:ae2/concurrent_processor_from_concurrent_processor_print");
+    }).id("drago:ae2/concurrent_processor_from_concurrent_processor_print");
 
     event.custom({
       "type": "create:deploying",
@@ -347,19 +271,17 @@ event.custom({
       "results": [
         {
           "count": 6,
-          "item": {
-            "id": "extendedae:concurrent_processor_print"
-          }
+          "id": "extendedae:concurrent_processor_print"
         }
       ]
-    }).id("create:ae2/printed_concurrent_processor_from_entro_block");
+    }).id("drago:ae2/printed_concurrent_processor_from_entro_block");
   }
 
   if (hasAppflux) {
     event.custom({
       "type": "create:sequenced_assembly",
       "ingredient": { "item": "appflux:printed_energy_processor" },
-      "transitionalItem": { "id": "appflux:energy_processor" },
+      "transitional_item": { "id": "appflux:energy_processor" },
       "loops": 1,
       "results": [
         { "id": "appflux:energy_processor", "count": 1 }
@@ -389,7 +311,7 @@ event.custom({
           "results": [{ "id": "appflux:energy_processor" }]
         },
       ]
-    }).id("create:ae2/energy_processor_from_energy_processor_print");
+    }).id("drago:ae2/energy_processor_from_energy_processor_print");
 
     event.custom({
       "type": "create:deploying",
@@ -401,12 +323,24 @@ event.custom({
       "results": [
         {
           "count": 12,
-          "item": {
-            "id": "appflux:printed_energy_processor"
-          }
+          "id": "appflux:printed_energy_processor"
         }
       ]
-    }).id("create:ae2/printed_energy_processor_from_charged_redstone_block");
+    }).id("drago:ae2/printed_energy_processor_from_charged_redstone_block");
+
+    if (hasPowah) {
+      event.custom({
+        type: "powah:energizing",
+        energy: 1600,
+        ingredients: [
+          { item: "appflux:redstone_crystal" }
+        ],
+        result: {
+          id: "appflux:charged_redstone",
+          count: 1
+        }
+      }).id("drago:powah/energizing/appflux/charged_redstone");
+    }
   }
 
 
@@ -415,7 +349,7 @@ event.custom({
     event.custom({
       "type": "create:sequenced_assembly",
       "ingredient": { "item": "megacells:printed_accumulation_processor" },
-      "transitionalItem": { "id": "megacells:accumulation_processor" },
+      "transitional_item": { "id": "megacells:accumulation_processor" },
       "loops": 1,
       "results": [
         { "id": "megacells:accumulation_processor", "count": 1 }
@@ -445,7 +379,7 @@ event.custom({
           "results": [{ "id": "megacells:accumulation_processor" }]
         },
       ]
-    }).id("create:ae2/accumulation_processor_from_printed_accumulation_processor");
+    }).id("drago:ae2/accumulation_processor_from_printed_accumulation_processor");
 
     event.custom({
       "type": "create:deploying",
@@ -457,12 +391,10 @@ event.custom({
       "results": [
         {
           "count": 12,
-          "item": {
-            "id": "megacells:printed_accumulation_processor"
-          }
+          "id": "megacells:printed_accumulation_processor"
         }
       ]
-    }).id("create:ae2/printed_accumulation_processor_from_quartz_block");
+    }).id("drago:ae2/printed_accumulation_processor_from_quartz_block");
   }
 
 });

@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:entro_crystal_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/entro_crystal_seeds");
+  }).id("drago:mysticalagriculture/infusion/entro_crystal_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:neptunium_nugget_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/neptunium_nugget_seeds");
+  }).id("drago:mysticalagriculture/infusion/neptunium_nugget_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -74,7 +74,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:quartz_enriched_copper_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/quartz_enriched_copper_seeds");
+  }).id("drago:mysticalagriculture/infusion/quartz_enriched_copper_seeds");
 
   event.remove({ output: "mysticalagriculture:fluix_seeds" });
 
@@ -104,7 +104,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:fluix_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/fluix_crystal_seeds");
+  }).id("drago:mysticalagriculture/infusion/fluix_crystal_seeds");
 
   event.remove({ output: "mysticalagriculture:netherite_seeds" });
 
@@ -134,7 +134,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:netherite_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/netherite_seeds");
+  }).id("drago:mysticalagriculture/infusion/netherite_seeds");
 
   event.remove({ output: "mysticalagriculture:uranium_seeds" });
 
@@ -164,7 +164,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:uranium_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/uranium_seeds");
+  }).id("drago:mysticalagriculture/infusion/uranium_seeds");
 
   event.remove({ output: "mysticalagriculture:uraninite_seeds" });
 
@@ -194,7 +194,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:uraninite_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/uraninite_seeds");
+  }).id("drago:mysticalagriculture/infusion/uraninite_seeds");
 
   event.remove({ output: "mysticalagriculture:nether_star_seeds" });
   
@@ -224,7 +224,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:nether_star_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/nether_star_seeds");
+  }).id("drago:mysticalagriculture/infusion/nether_star_seeds");
 
     event.custom({
     type: "mysticalagriculture:infusion",
@@ -244,7 +244,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:flux_dust_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/flux_dust_seeds");
+  }).id("drago:mysticalagriculture/infusion/flux_dust_seeds");
 
   event.remove({ output: "mysticalagriculture:yellorium_seeds" });
 
@@ -266,7 +266,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:eclipse_alloy_ingot_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/eclipse_alloy_ingot_seeds");
+  }).id("drago:mysticalagriculture/infusion/eclipse_alloy_ingot_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -286,7 +286,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:ferricore_ingot_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/ferricore_ingot_seeds");
+  }).id("drago:mysticalagriculture/infusion/ferricore_ingot_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -306,7 +306,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:blazegold_ingot_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/blazegold_ingot_seeds");
+  }).id("drago:mysticalagriculture/infusion/blazegold_ingot_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -326,7 +326,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:celestigem_crystal_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/celestigem_crystal_seeds");
+  }).id("drago:mysticalagriculture/infusion/celestigem_crystal_seeds");
 
   event.remove({ output: "mysticalagriculture:nitro_crystal_seeds" });
 
@@ -348,7 +348,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:nitro_crystal_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/nitro_crystal_seeds");
+  }).id("drago:mysticalagriculture/infusion/nitro_crystal_seeds");
 
    event.custom({
     type: "mysticalagriculture:infusion",
@@ -368,7 +368,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:deep_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/deep_seeds");
+  }).id("drago:mysticalagriculture/infusion/deep_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -388,7 +388,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:andesite_alloy_ingot_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/andesite_alloy_seeds");
+  }).id("drago:mysticalagriculture/infusion/andesite_alloy_seeds");
 
   event.remove({ output: "mysticalagriculture:brass_seeds" });
 
@@ -410,7 +410,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:brass_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/brass_seeds");
+  }).id("drago:mysticalagriculture/infusion/brass_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -430,7 +430,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:rose_quartz_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/rose_quartz_seeds");
+  }).id("drago:mysticalagriculture/infusion/rose_quartz_seeds");
 
   event.remove({ output: "mysticalagriculture:spirited_crystal_seeds" });
 
@@ -452,7 +452,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:spirited_crystal_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/spirited_crystal_seeds");
+  }).id("drago:mysticalagriculture/infusion/spirited_crystal_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -480,7 +480,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:insanite_ingot_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/insanite_ingot_seeds");
+  }).id("drago:mysticalagriculture/infusion/insanite_ingot_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -508,7 +508,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:inanite_ingot_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/inanite_ingot_seeds");
+  }).id("drago:mysticalagriculture/infusion/inanite_ingot_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -536,7 +536,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:ludicrite_ingot_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/ludicrite_ingot_seeds");
+  }).id("drago:mysticalagriculture/infusion/ludicrite_ingot_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -564,7 +564,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:ridiculite_ingot_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/ridiculite_ingot_seeds");
+  }).id("drago:mysticalagriculture/infusion/ridiculite_ingot_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -592,7 +592,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:magentite_ingot_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/magentite_ingot_seeds");
+  }).id("drago:mysticalagriculture/infusion/magentite_ingot_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -620,7 +620,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:blutonium_ingot_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/blutonium_ingot_seeds");
+  }).id("drago:mysticalagriculture/infusion/blutonium_ingot_seeds");
 
 
    event.custom({
@@ -641,7 +641,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:sky_steel_ingot_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/sky_steel_ingot_seeds");
+  }).id("drago:mysticalagriculture/infusion/sky_steel_ingot_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -661,7 +661,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:insulating_resin_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/insulating_resin_seeds");
+  }).id("drago:mysticalagriculture/infusion/insulating_resin_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -681,7 +681,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:gunmetal_ingot_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/gunmetal_ingot_seeds");
+  }).id("drago:mysticalagriculture/infusion/gunmetal_ingot_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -701,7 +701,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:xychorium_gem_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/xychorium_gem_seeds");
+  }).id("drago:mysticalagriculture/infusion/xychorium_gem_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -721,7 +721,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:redstone_crystal_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/redstone_crystal_seeds");
+  }).id("drago:mysticalagriculture/infusion/redstone_crystal_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -741,7 +741,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:lithium_dust_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/lithium_dust_seeds");
+  }).id("drago:mysticalagriculture/infusion/lithium_dust_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -761,7 +761,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:sky_bronze_ingot_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/sky_bronze_ingot_seeds");
+  }).id("drago:mysticalagriculture/infusion/sky_bronze_ingot_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -779,9 +779,9 @@ ServerEvents.recipes(event => {
       { item: "mysticalextendedtier:ouranium_essence" },
     ],
     result: {
-      id: "mysticalagriculture:time_crystal_seeds ",
+      id: "mysticalagriculture:time_crystal_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/time_crystal_seeds");
+  }).id("drago:mysticalagriculture/infusion/time_crystal_seeds");
 
    event.custom({
     type: "mysticalagriculture:infusion",
@@ -801,7 +801,7 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:prosperity_shard_seeds", 
     },
-  }).id("custom:mysticalagriculture/infusion/prosperity_shard_seeds");
+  }).id("drago:mysticalagriculture/infusion/prosperity_shard_seeds");
 
   event.custom({
     type: "mysticalagriculture:infusion",
@@ -809,11 +809,11 @@ ServerEvents.recipes(event => {
       item: "mysticalagriculture:prosperity_seed_base",
     },
     ingredients: [
-      { item: "mekanism:block_antimatter" },
+      { tag: "allthecompressed:antimatter_block_1x" },
       { item: "mysticalextendedtier:ouranium_essence" },
       { item: "mekanism:pellet_antimatter" },
       { item: "mysticalextendedtier:ouranium_essence" },
-      { item: "mekanism:block_antimatter" },
+      { tag: "allthecompressed:antimatter_block_1x" },
       { item: "mysticalextendedtier:ouranium_essence" },
       { item: "mekanism:pellet_antimatter" },
       { item: "mysticalextendedtier:ouranium_essence" },
@@ -821,6 +821,6 @@ ServerEvents.recipes(event => {
     result: {
       id: "mysticalagriculture:antimatter_pellet_seeds",
     },
-  }).id("custom:mysticalagriculture/infusion/antimatter_pellet_seeds");
+  }).id("drago:mysticalagriculture/infusion/antimatter_pellet_seeds");
 
 });

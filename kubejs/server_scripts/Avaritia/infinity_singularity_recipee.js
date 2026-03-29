@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+  event.remove({ id: 'avaritia:infinity_singularity' })
   event.remove({ output: 'avaritia:infinity_singularity' })
 
   const ids = [
@@ -27,7 +28,19 @@ ServerEvents.recipes(event => {
     'nitro_crystal_singularity',
     'chest_omega_singularity',
     'backpack_omega_singularity',
-    'factory_block_singularity'
+    'factory_block_singularity',
+    'extradisks_fluid_storage_singularity',
+    'refinedtypes_energy_storage_singularity',
+    'refinedtypes_soul_storage_singularity',
+    'mushroom_stew_singularity',
+    'rabbit_stew_singularity',
+    'bass_stew_singularity',
+    'putrid_stew_singularity',
+    'strider_stew_singularity',
+    'onion_singularity',
+    'tomato_singularity',
+    'cabbage_singularity',
+    'raw_pasta_singularity'
   ]
 
   event.custom({
@@ -53,9 +66,9 @@ ServerEvents.recipes(event => {
     pattern: [
       'ABCDEFGHI',
       'JKLMNOPQR',
-      'STUVWXYZ[',
-      '\\]^      ',
-      '         ',
+      'STUVWXYZ ',
+      'abcdefghi',
+      'jkl      ',
       '         ',
       '         ',
       '         ',
@@ -87,7 +100,19 @@ ServerEvents.recipes(event => {
       W: { type: 'neoforge:components', items: 'avaritia:json_singularity', components: { 'avaritia:singularity_id': 'nitro_crystal_singularity' }, strict: true },
       X: { type: 'neoforge:components', items: 'avaritia:json_singularity', components: { 'avaritia:singularity_id': 'chest_omega_singularity' }, strict: true },
       Y: { type: 'neoforge:components', items: 'avaritia:json_singularity', components: { 'avaritia:singularity_id': 'backpack_omega_singularity' }, strict: true },
-      '^': { type: 'neoforge:components', items: 'avaritia:json_singularity', components: { 'avaritia:singularity_id': 'factory_block_singularity' }, strict: true }
+      Z: { type: 'neoforge:components', items: 'avaritia:json_singularity', components: { 'avaritia:singularity_id': 'factory_block_singularity' }, strict: true },
+      a: { type: 'neoforge:components', items: 'avaritia:json_singularity', components: { 'avaritia:singularity_id': 'extradisks_fluid_storage_singularity' }, strict: true },
+      b: { type: 'neoforge:components', items: 'avaritia:json_singularity', components: { 'avaritia:singularity_id': 'refinedtypes_energy_storage_singularity' }, strict: true },
+      c: { type: 'neoforge:components', items: 'avaritia:json_singularity', components: { 'avaritia:singularity_id': 'refinedtypes_soul_storage_singularity' }, strict: true },
+      d: { type: 'neoforge:components', items: 'avaritia:json_singularity', components: { 'avaritia:singularity_id': 'mushroom_stew_singularity' }, strict: true },
+      e: { type: 'neoforge:components', items: 'avaritia:json_singularity', components: { 'avaritia:singularity_id': 'rabbit_stew_singularity' }, strict: true },
+      f: { type: 'neoforge:components', items: 'avaritia:json_singularity', components: { 'avaritia:singularity_id': 'bass_stew_singularity' }, strict: true },
+      g: { type: 'neoforge:components', items: 'avaritia:json_singularity', components: { 'avaritia:singularity_id': 'putrid_stew_singularity' }, strict: true },
+      h: { type: 'neoforge:components', items: 'avaritia:json_singularity', components: { 'avaritia:singularity_id': 'strider_stew_singularity' }, strict: true },
+      i: { type: 'neoforge:components', items: 'avaritia:json_singularity', components: { 'avaritia:singularity_id': 'onion_singularity' }, strict: true },
+      j: { type: 'neoforge:components', items: 'avaritia:json_singularity', components: { 'avaritia:singularity_id': 'tomato_singularity' }, strict: true },
+      k: { type: 'neoforge:components', items: 'avaritia:json_singularity', components: { 'avaritia:singularity_id': 'cabbage_singularity' }, strict: true },
+      l: { type: 'neoforge:components', items: 'avaritia:json_singularity', components: { 'avaritia:singularity_id': 'raw_pasta_singularity' }, strict: true }
     },
     result: {
       id: 'avaritia:infinity_singularity',

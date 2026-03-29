@@ -127,26 +127,6 @@ const singularities = [
     cost: 2,
   },
   {
-    id: 'ironwood_ingot_singularity',
-    item: 'twilightforest:ironwood_ingot',
-    cost: 100,
-  },
-  {
-    id: 'steeleaf_ingot_singularity',
-    item: 'twilightforest:steeleaf_ingot',
-    cost: 100,
-  },
-  {
-    id: 'knightmetal_ingot_singularity',
-    item: 'twilightforest:knightmetal_ingot',
-    cost: 100,
-  },
-  {
-    id: 'fiery_ingot_singularity',
-    item: 'twilightforest:fiery_ingot',
-    cost: 100,
-  },
-  {
     id: 'factory_block_singularity',
     item: 'factory_blocks:factory',
     cost: 1000,
@@ -154,6 +134,21 @@ const singularities = [
   {
     id: 'refined_storage_singularity',
     item: 'extradisks:1048576k_item_storage_part',
+    cost: 3,
+  },
+  {
+    id: 'extradisks_fluid_storage_singularity',
+    item: 'extradisks:1048576b_fluid_storage_part',
+    cost: 3,
+  },
+  {
+    id: 'refinedtypes_energy_storage_singularity',
+    item: 'refinedtypes:8388608k_energy_storage_part',
+    cost: 3,
+  },
+  {
+    id: 'refinedtypes_soul_storage_singularity',
+    item: 'refinedtypes:2097152k_soul_storage_part',
     cost: 3,
   },
   {
@@ -166,9 +161,107 @@ const singularities = [
     item: 'minecraft:coal_block',
     cost: 50,
   },
+  {
+    id: 'cooked_beef_singularity',
+    item: 'minecraft:cooked_beef',
+    cost: 100,
+  },
+  {
+    id: 'cooked_porkchop_singularity',
+    item: 'minecraft:cooked_porkchop',
+    cost: 100,
+  },
+  {
+    id: 'cooked_chicken_singularity',
+    item: 'minecraft:cooked_chicken',
+    cost: 100,
+  },
+  {
+    id: 'cooked_mutton_singularity',
+    item: 'minecraft:cooked_mutton',
+    cost: 100,
+  },
+  {
+    id: 'cooked_rabbit_singularity',
+    item: 'minecraft:cooked_rabbit',
+    cost: 100,
+  },
+  {
+    id: 'cooked_cod_singularity',
+    item: 'minecraft:cooked_cod',
+    cost: 100,
+  },
+  {
+    id: 'cooked_salmon_singularity',
+    item: 'minecraft:cooked_salmon',
+    cost: 100,
+  },
+  {
+    id: 'cooked_bacon_singularity',
+    item: 'farmersdelight:cooked_bacon',
+    cost: 100,
+  },
+  {
+    id: 'beef_patty_singularity',
+    item: 'farmersdelight:beef_patty',
+    cost: 100,
+  },
+  {
+    id: 'smoked_ham_singularity',
+    item: 'farmersdelight:smoked_ham',
+    cost: 100,
+  },
+  {
+    id: 'mushroom_stew_singularity',
+    item: 'minecraft:mushroom_stew',
+    cost: 100,
+  },
+  {
+    id: 'rabbit_stew_singularity',
+    item: 'minecraft:rabbit_stew',
+    cost: 100,
+  },
+  {
+    id: 'bass_stew_singularity',
+    item: 'aquaculturedelight:bass_stew',
+    cost: 100,
+  },
+  {
+    id: 'putrid_stew_singularity',
+    item: 'garnished:putrid_stew',
+    cost: 100,
+  },
+  {
+    id: 'strider_stew_singularity',
+    item: 'mynethersdelight:strider_stew',
+    cost: 100,
+  },
+  {
+    id: 'onion_singularity',
+    item: 'farmersdelight:onion',
+    cost: 100,
+  },
+  {
+    id: 'tomato_singularity',
+    item: 'farmersdelight:tomato',
+    cost: 100,
+  },
+  {
+    id: 'cabbage_singularity',
+    item: 'farmersdelight:cabbage',
+    cost: 100,
+  },
+  {
+    id: 'raw_pasta_singularity',
+    item: 'farmersdelight:raw_pasta',
+    cost: 100,
+  },
 ]
 
 ServerEvents.recipes(event => {
+  const hasPneumaticCraft = Platform.isLoaded('pneumaticcraft')
+  const maxPressureChamberInput = 9 * 64
+
   singularities.forEach(sing => {
     event.custom({
       type: 'avaritia:compressor',
@@ -181,5 +274,40 @@ ServerEvents.recipes(event => {
       cost: sing.cost,
       ingredients: [{ item: sing.item }]
     })
+
+    if (hasPneumaticCraft && sing.cost <= maxPressureChamberInput) {
+      const chamberInputs = []
+      const fullStacks = Math.floor(sing.cost / 64)
+      const remainder = sing.cost % 64
+
+      for (let i = 0; i < fullStacks; i++) {
+        chamberInputs.push({
+          item: sing.item,
+          count: 64
+        })
+      }
+
+      if (remainder > 0) {
+        chamberInputs.push({
+          item: sing.item,
+          count: remainder
+        })
+      }
+
+      event.custom({
+        type: 'pneumaticcraft:pressure_chamber',
+        inputs: chamberInputs,
+        pressure: 4.0,
+        results: [
+          {
+            id: 'avaritia:json_singularity',
+            count: 1,
+            components: {
+              'avaritia:singularity_id': sing.id
+            }
+          }
+        ]
+      }).id(`drago:pneumaticcraft/pressure_chamber/${sing.id}`)
+    }
   })
 })

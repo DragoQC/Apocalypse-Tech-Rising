@@ -1,6 +1,6 @@
 LootJS.modifiers(event => {
   // Keep generic unification behavior for raw material drops.
-  event.addBlockLootModifier('#forge:ores').modifyLoot('#forge:raw_materials', item => {
+  event.addBlockModifier('#forge:ores').modifyLoot('#forge:raw_materials', item => {
     const replacement = AlmostUnified.getReplacementForItem(item);
     if (replacement.isEmpty()) {
       return item;
@@ -24,7 +24,7 @@ LootJS.modifiers(event => {
   };
 
   Object.entries(rawDropReplacements).forEach(([from, to]) => {
-    event.addBlockLootModifier('#forge:ores').replaceLoot(from, to, true);
+    event.addBlockModifier('#forge:ores').replaceLoot(from, to, true);
   });
 
   // If silk touch drops the ore block itself, convert to AllTheOres ore block.
@@ -53,6 +53,6 @@ LootJS.modifiers(event => {
   };
 
   Object.entries(silkOreBlockReplacements).forEach(([fromBlock, toBlock]) => {
-    event.addBlockLootModifier(fromBlock).replaceLoot(fromBlock, toBlock, true);
+    event.addBlockModifier(fromBlock).replaceLoot(fromBlock, toBlock, true);
   });
 });

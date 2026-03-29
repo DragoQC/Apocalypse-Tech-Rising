@@ -26,8 +26,8 @@ ServerEvents.recipes(event => {
       },
       B: { tag: "c:storage_blocks/diamond" },
       C: { tag: "c:storage_blocks/gold" },
-      D: { item: "compressedblocks:crated_stick" },
-      E: { item: "compressedblocks:crated_torch" },
+      D: { item: "constructionstick:netherite_stick" },
+      E: { item: "allthecompressed:coal_block_5x" },
       F: { tag: "c:storage_blocks/coal" },
     },
     result: {
@@ -61,8 +61,8 @@ ServerEvents.recipes(event => {
       },
       B: { tag: "c:storage_blocks/diamond" },
       C: { tag: "c:storage_blocks/gold" },
-      D: { item: "compressedblocks:crated_stick" },
-      E: { item: "compressedblocks:crated_torch" },
+      D: { item: "constructionstick:netherite_stick" },
+      E: { item: "allthecompressed:coal_block_5x" },
       F: { tag: "c:storage_blocks/coal" },
     },
   }).id("drago:avaritia/megatorch");

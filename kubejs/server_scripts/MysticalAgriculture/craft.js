@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
       L: "mysticalextendedtier:lightium_block",
       I: "mysticalextendedtier:ornium_block",
       D: "minecraft:diamond_block",
-    }).id("custom:mysticalagriculture/crux/nether_star_crux");
+    }).id("drago:mysticalagriculture/crux/nether_star_crux");
 
     event.remove({ output: "mysticalagradditions:neutronium_crux" });
 
@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
       X: "mysticalextendedtier:lightium_essence",
       D: "mysticalextendedtier:ouranium_block",
       N: "avaritia:neutronium_ingot",
-    }).id("custom:mysticalagriculture/crux/neutronium_crux");
+    }).id("drago:mysticalagriculture/crux/neutronium_crux");
 
     event.remove({ output: "mysticalagradditions:nitro_crystal_crux" });
 
@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
       X: "mysticalextendedtier:lightium_essence",
       D: "powah:nitro_crystal_block",
       N: "minecraft:nether_star",
-    }).id("custom:mysticalagriculture/crux/nitro_crystal_crux");
+    }).id("drago:mysticalagriculture/crux/nitro_crystal_crux");
 
   event.shaped(Item.of("fluxnetworks:flux_dust", 2), [
     "E E",
@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
     "E E"
   ], {
     E: "mysticalagriculture:flux_dust_essence"
-  }).id("custom:mysticalagriculture/flux_dust_essence_to_dust");
+  }).id("drago:mysticalagriculture/flux_dust_essence_to_dust");
 
   event.shaped(Item.of("create:rose_quartz", 2), [
     "EEE",
@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
     "EEE"
   ], {
     E: "mysticalagriculture:rose_quartz_essence"
-  }).id("custom:mysticalagriculture/rose_quartz_essence_to_crystal");
+  }).id("drago:mysticalagriculture/rose_quartz_essence_to_crystal");
 
   event.shaped(Item.of("create:polished_rose_quartz", 2), [
     "EEE",
@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
   ], {
     S: "minecraft:sand",
     E: "mysticalagriculture:rose_quartz_essence"
-  }).id("custom:mysticalagriculture/rose_quartz_essence_to_polished_crystal");
+  }).id("drago:mysticalagriculture/rose_quartz_essence_to_polished_crystal");
 
   event.shaped(Item.of("mekanism:pellet_antimatter", 1), [
     "EEE",
@@ -78,7 +78,7 @@ ServerEvents.recipes(event => {
   ], {
     E: "mysticalagriculture:antimatter_pellet_essence",
     S: "minecraft:nether_star"
-  }).id("custom:mysticalagriculture/antimatter_pellet_essence_to_pellet");
+  }).id("drago:mysticalagriculture/antimatter_pellet_essence_to_pellet");
 
   event.shaped(Item.of("create:andesite_alloy", 6), [
     "EEE",
@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
   ], {
     E: "mysticalagriculture:andesite_alloy_ingot_essence",
     A: "minecraft:andesite"
-  }).id("custom:mysticalagriculture/andesite_alloy_ingot_essence_to_ingot");
+  }).id("drago:mysticalagriculture/andesite_alloy_ingot_essence_to_ingot");
 
   event.shaped(Item.of("deeperdarker:heart_of_the_deep", 1), [
     "EEE",
@@ -96,7 +96,7 @@ ServerEvents.recipes(event => {
   ], {
     E: "mysticalagriculture:deep_essence",
     S: "minecraft:nether_star"
-  }).id("custom:mysticalagriculture/deep_essence_to_heart");
+  }).id("drago:mysticalagriculture/deep_essence_to_heart");
 
   event.shaped(Item.of("minecraft:echo_shard", 1), [
     "EEE",
@@ -105,7 +105,7 @@ ServerEvents.recipes(event => {
   ], {
     E: "mysticalagriculture:deep_essence",
     S: "minecraft:amethyst_shard"
-  }).id("custom:mysticalagriculture/deep_essence_to_echo");
+  }).id("drago:mysticalagriculture/deep_essence_to_echo");
 
   event.shaped(Item.of("deeperdarker:sculk_bone", 1), [
     "EEE",
@@ -114,7 +114,7 @@ ServerEvents.recipes(event => {
   ], {
     E: "mysticalagriculture:deep_essence",
     S: "minecraft:bone"
-  }).id("custom:mysticalagriculture/deep_essence_to_bone");
+  }).id("drago:mysticalagriculture/deep_essence_to_bone");
 
   event.shaped(Item.of("deeperdarker:soul_crystal", 1), [
     "EEE",
@@ -123,7 +123,7 @@ ServerEvents.recipes(event => {
   ], {
     E: "mysticalagriculture:deep_essence",
     S: "minecraft:diamond"
-  }).id("custom:mysticalagriculture/deep_essence_to_crystal");
+  }).id("drago:mysticalagriculture/deep_essence_to_crystal");
 
   event.shaped(Item.of("deeperdarker:warden_carapace", 1), [
     "EEE",
@@ -132,7 +132,7 @@ ServerEvents.recipes(event => {
   ], {
     E: "mysticalagriculture:deep_essence",
     S: "minecraft:netherite_ingot"
-  }).id("custom:mysticalagriculture/deep_essence_to_carapace");
+  }).id("drago:mysticalagriculture/deep_essence_to_carapace");
 
   event.shaped(Item.of("justdirethings:celestigem", 1), [
     "EEE",
@@ -140,7 +140,7 @@ ServerEvents.recipes(event => {
     "EEE"
   ], {
     E: "mysticalagriculture:celestigem_crystal_essence"
-  }).id("custom:mysticalagriculture/celestigem_crystal_essence_to_gem");
+  }).id("drago:mysticalagriculture/celestigem_crystal_essence_to_gem");
 
 
   event.shaped(Item.of("justdirethings:blazegold_ingot", 2), [
@@ -149,7 +149,7 @@ ServerEvents.recipes(event => {
     "EEE"
   ], {
     E: "mysticalagriculture:blazegold_ingot_essence"
-  }).id("custom:mysticalagriculture/blazegold_ingot_essence_to_ingot");
+  }).id("drago:mysticalagriculture/blazegold_ingot_essence_to_ingot");
 
   event.shaped(Item.of("justdirethings:ferricore_ingot", 2), [
     "E E",
@@ -157,7 +157,7 @@ ServerEvents.recipes(event => {
     "E E"
   ], {
     E: "mysticalagriculture:ferricore_ingot_essence"
-  }).id("custom:mysticalagriculture/ferricore_ingot_essence_to_ingot");
+  }).id("drago:mysticalagriculture/ferricore_ingot_essence_to_ingot");
 
   event.shaped(Item.of("avaritia:neutron_pile", 1), [
     "EEE",
@@ -165,7 +165,7 @@ ServerEvents.recipes(event => {
     "EEE"
   ], {
     E: "mysticalagriculture:neutronium_essence"
-  }).id("custom:mysticalagriculture/neutronium_essence_to_pile");
+  }).id("drago:mysticalagriculture/neutronium_essence_to_pile");
 
   event.shaped(Item.of("justdirethings:eclipsealloy_ingot", 1), [
     "EEE",
@@ -173,7 +173,7 @@ ServerEvents.recipes(event => {
     "EEE"
   ], {
     E: "mysticalagriculture:eclipse_alloy_ingot_essence"
-  }).id("custom:mysticalagriculture/eclipsealloy_ingot_essence_to_ingot");
+  }).id("drago:mysticalagriculture/eclipsealloy_ingot_essence_to_ingot");
 
   event.shaped(Item.of("integrateddynamics:crystalized_menril_chunk", 2), [
     "E E",
@@ -181,7 +181,7 @@ ServerEvents.recipes(event => {
     "E E"
   ], {
     E: "mysticalagriculture:menril_essence"
-  }).id("custom:mysticalagriculture/crystalized_menril_chunk");
+  }).id("drago:mysticalagriculture/crystalized_menril_chunk");
 
   event.shaped(Item.of("extendedae:entro_crystal", 4), [
     "EEE",
@@ -189,7 +189,7 @@ ServerEvents.recipes(event => {
     "EEE"
   ], {
     E: "mysticalagriculture:entro_crystal_essence"
-  }).id("custom:mysticalagriculture/entro_crystal_essence_to_crystal");
+  }).id("drago:mysticalagriculture/entro_crystal_essence_to_crystal");
 
   event.shaped(Item.of("extendedae:entro_dust", 2), [
     "E E",
@@ -197,7 +197,7 @@ ServerEvents.recipes(event => {
     "E E"
   ], {
     E: "mysticalagriculture:entro_crystal_essence"
-  }).id("custom:mysticalagriculture/entro_crystal_essence_to_dust");
+  }).id("drago:mysticalagriculture/entro_crystal_essence_to_dust");
 
   event.shaped(Item.of("refinedstorage:quartz_enriched_copper", 8),
     [
@@ -207,7 +207,7 @@ ServerEvents.recipes(event => {
     ],
     {
       E: "mysticalagriculture:quartz_enriched_copper_essence"
-    }).id("custom:mysticalagriculture/quartz_enriched_copper_essence_to_crystal");
+    }).id("drago:mysticalagriculture/quartz_enriched_copper_essence_to_crystal");
 
     event.shaped(Item.of("aquaculture:neptunium_nugget", 3),
     [
@@ -217,7 +217,7 @@ ServerEvents.recipes(event => {
     ],
     {
       E: "mysticalagriculture:neptunium_nugget_essence"
-    }).id("custom:mysticalagriculture/neptunium_nugget_essence_to_ingot");
+    }).id("drago:mysticalagriculture/neptunium_nugget_essence_to_ingot");
 
     event.shaped(Item.of("bigreactors:insanite_ingot", 1),
     [
@@ -227,7 +227,7 @@ ServerEvents.recipes(event => {
     ],
     {
       E: "mysticalagriculture:insanite_ingot_essence"
-    }).id("custom:mysticalagriculture/insanite_ingot_essence_to_ingot");
+    }).id("drago:mysticalagriculture/insanite_ingot_essence_to_ingot");
 
     event.shaped(Item.of("bigreactors:inanite_ingot", 1),
     [
@@ -237,7 +237,7 @@ ServerEvents.recipes(event => {
     ],
     {
       E: "mysticalagriculture:inanite_ingot_essence"
-    }).id("custom:mysticalagriculture/inanite_ingot_essence_to_ingot");
+    }).id("drago:mysticalagriculture/inanite_ingot_essence_to_ingot");
 
     event.shaped(Item.of("bigreactors:ridiculite_ingot", 1),
     [
@@ -247,7 +247,7 @@ ServerEvents.recipes(event => {
     ],
     {
       E: "mysticalagriculture:ridiculite_ingot_essence"
-    }).id("custom:mysticalagriculture/ridiculite_ingot_essence_to_ingot");
+    }).id("drago:mysticalagriculture/ridiculite_ingot_essence_to_ingot");
 
     event.shaped(Item.of("bigreactors:magentite_ingot", 1),
     [
@@ -257,7 +257,7 @@ ServerEvents.recipes(event => {
     ],
     {
       E: "mysticalagriculture:magentite_ingot_essence"
-    }).id("custom:mysticalagriculture/magentite_ingot_essence_to_ingot");
+    }).id("drago:mysticalagriculture/magentite_ingot_essence_to_ingot");
 
     event.shaped(Item.of("bigreactors:ludicrite_ingot", 1),
     [
@@ -267,7 +267,7 @@ ServerEvents.recipes(event => {
     ],
     {
       E: "mysticalagriculture:ludicrite_ingot_essence"
-    }).id("custom:mysticalagriculture/ludicrite_ingot_essence_to_ingot");
+    }).id("drago:mysticalagriculture/ludicrite_ingot_essence_to_ingot");
 
     event.shaped(Item.of("bigreactors:blutonium_ingot", 1),
     [
@@ -277,7 +277,7 @@ ServerEvents.recipes(event => {
     ],
     {
       E: "mysticalagriculture:blutonium_ingot_essence"
-    }).id("custom:mysticalagriculture/blutonium_ingot_essence_to_ingot");
+    }).id("drago:mysticalagriculture/blutonium_ingot_essence_to_ingot");
 
     event.shaped(Item.of("megacells:sky_steel_ingot", 2),
     [
@@ -287,7 +287,7 @@ ServerEvents.recipes(event => {
     ],
     {
       E: "mysticalagriculture:sky_steel_ingot_essence"
-    }).id("custom:mysticalagriculture/sky_steel_ingot_essence_to_ingot");
+    }).id("drago:mysticalagriculture/sky_steel_ingot_essence_to_ingot");
 
     event.shaped(Item.of("minecraft:blue_ice", 2),
     [
@@ -297,7 +297,7 @@ ServerEvents.recipes(event => {
     ],
     {
       E: "mysticalagriculture:ice_essence"
-    }).id("custom:mysticalagriculture/ice_essence_to_blue_ice");
+    }).id("drago:mysticalagriculture/ice_essence_to_blue_ice");
 
     event.shaped(Item.of("powah:dry_ice", 2),
     [
@@ -308,7 +308,7 @@ ServerEvents.recipes(event => {
     {
       E: "mysticalagriculture:ice_essence",
       A: "minecraft:blue_ice"
-    }).id("custom:mysticalagriculture/ice_essence_to_dry_ice");
+    }).id("drago:mysticalagriculture/ice_essence_to_dry_ice");
 
     event.shaped(Item.of("create:experience_nugget", 2),
     [
@@ -318,7 +318,7 @@ ServerEvents.recipes(event => {
     ],
     {
       E: "mysticalagriculture:experience_essence",
-    }).id("custom:mysticalagriculture/experience_essence_to_experience_gem");
+    }).id("drago:mysticalagriculture/experience_essence_to_experience_gem");
 
     event.shaped(Item.of("actuallyadditions:solidified_experience", 2),
     [
@@ -328,7 +328,7 @@ ServerEvents.recipes(event => {
     ],
     {
       E: "mysticalagriculture:experience_essence",
-    }).id("custom:mysticalagriculture/experience_essence_solid");
+    }).id("drago:mysticalagriculture/experience_essence_solid");
 
   event.shaped('crabbersdelight:raw_squid_tentacles', [
     ' A ',
@@ -336,7 +336,7 @@ ServerEvents.recipes(event => {
     'A A'
   ], {
     A: 'mysticalagriculture:squid_essence',
-  }).id("custom:mysticalagriculture/raw_squid_tentacles");
+  }).id("drago:mysticalagriculture/raw_squid_tentacles");
 
   event.shaped('oceansdelight:tentacles', [
     ' A ',
@@ -344,7 +344,7 @@ ServerEvents.recipes(event => {
     'A A'
   ], {
     A: 'mysticalagriculture:squid_essence',
-  }).id("custom:mysticalagriculture/tentacles");
+  }).id("drago:mysticalagriculture/tentacles");
 
   event.shaped(Item.of("minecraft:glow_ink_sac", 2), [
     'AAA',
@@ -353,7 +353,7 @@ ServerEvents.recipes(event => {
   ], {
     A: 'mysticalagriculture:squid_essence',
     B: 'mysticalagriculture:glowstone_essence',
-  }).id("custom:mysticalagriculture/glow_ink_sac");
+  }).id("drago:mysticalagriculture/glow_ink_sac");
 
   event.shaped(Item.of("appflux:insulating_resin", 2), [
     'AAA',
@@ -361,7 +361,7 @@ ServerEvents.recipes(event => {
     'AAA'
   ], {
     A: 'mysticalagriculture:insulating_resin_essence',
-  }).id("custom:mysticalagriculture/insulating_resin_essence");
+  }).id("drago:mysticalagriculture/insulating_resin_essence");
 
   event.shaped(Item.of("xycraft_world:xychorium_gem_light", 1), [
     ' A ',
@@ -369,7 +369,7 @@ ServerEvents.recipes(event => {
     ' A '
   ], {
     A: 'mysticalagriculture:xychorium_gem_essence',
-  }).id("custom:mysticalagriculture/xychorium_gem_essence_light");
+  }).id("drago:mysticalagriculture/xychorium_gem_essence_light");
 
   event.shaped(Item.of("xycraft_world:xychorium_gem_blue", 1), [
     '  A',
@@ -377,7 +377,7 @@ ServerEvents.recipes(event => {
     'A  '
   ], {
     A: 'mysticalagriculture:xychorium_gem_essence',
-  }).id("custom:mysticalagriculture/xychorium_gem_essence_blue");
+  }).id("drago:mysticalagriculture/xychorium_gem_essence_blue");
 
   event.shaped(Item.of("xycraft_world:xychorium_gem_green", 1), [
     'A  ',
@@ -385,7 +385,7 @@ ServerEvents.recipes(event => {
     '  A'
   ], {
     A: 'mysticalagriculture:xychorium_gem_essence',
-  }).id("custom:mysticalagriculture/xychorium_gem_essence_green");
+  }).id("drago:mysticalagriculture/xychorium_gem_essence_green");
 
   event.shaped(Item.of("xycraft_world:xychorium_gem_dark", 1), [
     '   ',
@@ -393,7 +393,7 @@ ServerEvents.recipes(event => {
     '   '
   ], {
     A: 'mysticalagriculture:xychorium_gem_essence',
-  }).id("custom:mysticalagriculture/xychorium_gem_essence_dark");
+  }).id("drago:mysticalagriculture/xychorium_gem_essence_dark");
 
   event.shaped(Item.of("xycraft_world:xychorium_gem_red", 1), [
     ' A ',
@@ -401,7 +401,7 @@ ServerEvents.recipes(event => {
     '   '
   ], {
     A: 'mysticalagriculture:xychorium_gem_essence',
-  }).id("custom:mysticalagriculture/xychorium_gem_essence_red");
+  }).id("drago:mysticalagriculture/xychorium_gem_essence_red");
 
   event.shaped(Item.of("pointblank:gunmetal_ingot", 2), [
     'AAA',
@@ -409,7 +409,7 @@ ServerEvents.recipes(event => {
     'AAA'
   ], {
     A: 'mysticalagriculture:gunmetal_ingot_essence',
-  }).id("custom:mysticalagriculture/gunmetal_ingot_essence");
+  }).id("drago:mysticalagriculture/gunmetal_ingot_essence");
 
   event.shaped(Item.of("appflux:redstone_crystal", 2), [
     'AAA',
@@ -417,7 +417,7 @@ ServerEvents.recipes(event => {
     'AAA'
   ], {
     A: 'mysticalagriculture:redstone_crystal_essence',
-  }).id("custom:mysticalagriculture/redstone_crystal_essence");
+  }).id("drago:mysticalagriculture/redstone_crystal_essence");
 
   event.shaped(Item.of("appflux:charged_redstone", 8), [
     'AAA',
@@ -426,7 +426,7 @@ ServerEvents.recipes(event => {
   ], {
     A: 'mysticalagriculture:redstone_crystal_essence',
     B: 'powah:charged_snowball',
-  }).id("custom:mysticalagriculture/redstone_crystal_snow_essence");
+  }).id("drago:mysticalagriculture/redstone_crystal_snow_essence");
 
 
 event.shaped(Item.of("mekanism:dust_lithium", 5), [
@@ -435,7 +435,7 @@ event.shaped(Item.of("mekanism:dust_lithium", 5), [
     'AAA'
   ], {
     A: 'mysticalagriculture:lithium_dust_essence',
-  }).id("custom:mysticalagriculture/lithium_dust_essence");
+  }).id("drago:mysticalagriculture/lithium_dust_essence");
 
   event.shaped(Item.of("megacells:sky_bronze_ingot", 2), [
     'AAA',
@@ -443,7 +443,7 @@ event.shaped(Item.of("mekanism:dust_lithium", 5), [
     'AAA'
   ], {
     A: 'mysticalagriculture:sky_bronze_ingot_essence',
-  }).id("custom:mysticalagriculture/sky_bronze_ingot_essence");
+  }).id("drago:mysticalagriculture/sky_bronze_ingot_essence");
 
   event.shaped(Item.of("justdirethings:time_crystal", 1), [
     'AAA',
@@ -451,7 +451,7 @@ event.shaped(Item.of("mekanism:dust_lithium", 5), [
     'AAA'
   ], {
     A: 'mysticalagriculture:time_crystal_essence',
-  }).id("custom:mysticalagriculture/time_crystal_essence");
+  }).id("drago:mysticalagriculture/time_crystal_essence");
 
   event.shaped(Item.of("mysticalagriculture:prosperity_shard", 1), [
     ' A ',
@@ -460,7 +460,7 @@ event.shaped(Item.of("mekanism:dust_lithium", 5), [
   ], {
     A: 'mysticalagriculture:prosperity_shard_essence',
     B: 'mysticalagriculture:inferium_essence',
-  }).id("custom:mysticalagriculture/prosperity_shard");
+  }).id("drago:mysticalagriculture/prosperity_shard");
 
   const oreRecipes = [
     {
@@ -562,7 +562,7 @@ event.shaped(Item.of("mekanism:dust_lithium", 5), [
         A: recipe.essence,
         B: 'mysticalagriculture:stone_essence'
       }
-    ).id(`custom:mysticalagriculture/${recipe.output.replace(/:/g, "_")}_ore`);
+    ).id(`drago:mysticalagriculture/${recipe.output.replace(/:/g, "_")}_ore`);
   });
 
 
